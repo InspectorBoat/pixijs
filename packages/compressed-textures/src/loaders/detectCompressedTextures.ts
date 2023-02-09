@@ -1,6 +1,6 @@
-import { extensions as ext, ExtensionType, settings } from '@pixi/core';
+import { extensions as ext, ExtensionType, settings } from 'pixi/core.ts';
 
-import type { FormatDetectionParser } from '@pixi/assets';
+import type { FormatDetectionParser } from 'pixi/assets.ts';
 import type { CompressedTextureExtensionRef, CompressedTextureExtensions } from './compressedTextureExtensions';
 
 let storedGl: WebGLRenderingContext;

@@ -1,13 +1,13 @@
-import { ENV } from '@pixi/constants';
-import { settings } from '@pixi/settings';
-import { deprecation } from '@pixi/utils';
+import { ENV } from 'pixi/constants.ts';
+import { settings } from 'pixi/settings.ts';
+import { deprecation } from 'pixi/utils.ts';
 import { BatchRenderer } from './batch/BatchRenderer';
 import { Filter } from './filters/Filter';
 import { Program } from './shader/Program';
 import { TextureGCSystem } from './systems';
 import { BaseTexture } from './textures/BaseTexture';
 
-import type { GC_MODES, MIPMAP_MODES, MSAA_QUALITY, PRECISION, SCALE_MODES, WRAP_MODES } from '@pixi/constants';
+import type { GC_MODES, MIPMAP_MODES, MSAA_QUALITY, PRECISION, SCALE_MODES, WRAP_MODES } from 'pixi/constants.ts';
 
 /**
  * The maximum support for using WebGL. If a device does not

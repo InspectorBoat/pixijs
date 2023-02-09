@@ -2,7 +2,7 @@ declare namespace GlobalMixins
 {
     interface Application
     {
-        ticker: import('@pixi/ticker').Ticker;
+        ticker: import('pixi/ticker').Ticker;
         stop(): void;
         start(): void;
     }

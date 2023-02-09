@@ -1,7 +1,7 @@
 import { Buffer } from '../geometry/Buffer';
 import { Geometry } from '../geometry/Geometry';
 
-import type { Rectangle } from '@pixi/math';
+import type { Rectangle } from 'pixi/math.ts';
 
 /**
  * Helper class to create a quad with uvs like in v4

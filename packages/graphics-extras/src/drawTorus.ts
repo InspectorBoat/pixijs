@@ -1,4 +1,4 @@
-import type { Graphics } from '@pixi/graphics';
+import type { Graphics } from 'pixi/graphics.ts';
 
 /**
  * Draw a torus shape, like a donut. Can be used for something like a circle loader.

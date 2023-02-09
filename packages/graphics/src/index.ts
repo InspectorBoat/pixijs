@@ -14,16 +14,16 @@ import {
     QuadraticUtils,
 } from './utils';
 
-import type { SHAPES } from '@pixi/core';
-import type { BatchDrawCall } from '@pixi/core/';
+import type { SHAPES } from 'pixi/core.ts';
+import type { BatchDrawCall } from 'pixi/core/';
 import type { IShapeBuildCommand } from './utils/IShapeBuildCommand';
 
-export * from './const';
-export * from './Graphics';
-export * from './GraphicsData';
-export * from './GraphicsGeometry';
-export * from './styles/FillStyle';
-export * from './styles/LineStyle';
+export * from './const.ts';
+export * from './Graphics.ts';
+export * from './GraphicsData.ts';
+export * from './GraphicsGeometry.ts';
+export * from './styles/FillStyle.ts';
+export * from './styles/LineStyle.ts';
 
 export const graphicsUtils = {
     buildPoly: buildPoly as IShapeBuildCommand,

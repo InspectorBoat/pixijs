@@ -1,6 +1,6 @@
-import { Container } from '@pixi/display';
-import { EventBoundary, FederatedPointerEvent } from '@pixi/events';
-import { Graphics } from '@pixi/graphics';
+import { Container } from 'pixi/display.ts';
+import { EventBoundary, FederatedPointerEvent } from 'pixi/events.ts';
+import { Graphics } from 'pixi/graphics.ts';
 
 describe('EventBoundary', () =>
 {

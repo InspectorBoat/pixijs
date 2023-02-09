@@ -1,8 +1,8 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 import { UPDATE_PRIORITY } from './const';
 import { Ticker } from './Ticker';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 
 /**
  * Middleware for for Application Ticker.

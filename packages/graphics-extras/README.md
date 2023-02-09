@@ -16,8 +16,8 @@ npm install @pixi/graphics-extras
 ## Usage
 
 ```js
-import { Graphics } from '@pixi/graphics';
-import '@pixi/graphics-extras';
+import { Graphics } from 'pixi/graphics.ts';
+import 'pixi/graphics-extras.ts';
 
 const shapes = new Graphics()
     .beginFill(0xffffff)

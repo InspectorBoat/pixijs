@@ -2,7 +2,7 @@ declare namespace GlobalMixins
 {
     interface Renderer
     {
-        readonly prepare: import('@pixi/prepare').Prepare;
+        readonly prepare: import('pixi/prepare').Prepare;
     }
 
     interface Settings

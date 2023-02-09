@@ -1,4 +1,4 @@
-import type { ExtensionMetadata } from '@pixi/core';
+import type { ExtensionMetadata } from 'pixi/core.ts';
 
 /**
  * Format detection is useful for detecting feature support
@@ -26,4 +26,4 @@ export interface FormatDetectionParser
     remove: (formats: string[]) => Promise<string[]>,
 }
 
-export * from './parsers';
+export * from './parsers.ts';

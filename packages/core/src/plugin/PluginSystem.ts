@@ -1,7 +1,7 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { deprecation } from '@pixi/utils';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { deprecation } from 'pixi/utils.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderer } from '../IRenderer';
 import type { ISystem } from '../system/ISystem';
 

@@ -1,8 +1,8 @@
-import { extensions, ExtensionType, Rectangle, RenderTexture, utils } from '@pixi/core';
+import { extensions, ExtensionType, Rectangle, RenderTexture, utils } from 'pixi/core.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
-import type { BaseRenderTexture, ExtensionMetadata, ICanvas, ISystem } from '@pixi/core';
-import type { DisplayObject } from '@pixi/display';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
+import type { BaseRenderTexture, ExtensionMetadata, ICanvas, ISystem } from 'pixi/core.ts';
+import type { DisplayObject } from 'pixi/display.ts';
 
 const TEMP_RECT = new Rectangle();
 

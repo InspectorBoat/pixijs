@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import { Renderer, settings, Texture } from '@pixi/core';
-import { BitmapFont, BitmapText } from '@pixi/text-bitmap';
+import { Renderer, settings, Texture } from 'pixi/core.ts';
+import { BitmapFont, BitmapText } from 'pixi/text-bitmap';
 
-import type { Container } from '@pixi/display';
+import type { Container } from 'pixi/display.ts';
 
 describe('BitmapText', () =>
 {

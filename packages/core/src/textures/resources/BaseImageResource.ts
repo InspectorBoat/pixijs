@@ -1,5 +1,5 @@
-import { ALPHA_MODES } from '@pixi/constants';
-import { determineCrossOrigin } from '@pixi/utils';
+import { ALPHA_MODES } from 'pixi/constants.ts';
+import { determineCrossOrigin } from 'pixi/utils.ts';
 import { Resource } from './Resource';
 
 import type { Renderer } from '../../Renderer';

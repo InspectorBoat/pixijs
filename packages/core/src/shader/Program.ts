@@ -1,5 +1,5 @@
-import { PRECISION } from '@pixi/constants';
-import { isMobile, ProgramCache } from '@pixi/utils';
+import { PRECISION } from 'pixi/constants.ts';
+import { isMobile, ProgramCache } from 'pixi/utils.ts';
 import defaultFragment from './defaultProgram.frag';
 import defaultVertex from './defaultProgram.vert';
 import { getMaxFragmentPrecision, setPrecision } from './utils';

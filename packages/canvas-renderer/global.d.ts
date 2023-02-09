@@ -8,12 +8,12 @@ declare namespace GlobalMixins
     interface Texture
     {
         patternCache?: { [key: string]: CanvasPattern };
-        tintCache?: { [key: string]: import('@pixi/settings').ICanvas | HTMLImageElement };
+        tintCache?: { [key: string]: import('pixi/settings').ICanvas | HTMLImageElement };
     }
 
     interface BaseRenderTexture
     {
-        _canvasRenderTarget: import('@pixi/utils').CanvasRenderTarget;
+        _canvasRenderTarget: import('pixi/utils').CanvasRenderTarget;
     }
 
     interface GlobalTintable
@@ -40,7 +40,7 @@ declare namespace GlobalMixins
 
     interface IRenderableObject
     {
-        renderCanvas?(renderer: import('@pixi/canvas-renderer').CanvasRenderer): void;
+        renderCanvas?(renderer: import('pixi/canvas-renderer').CanvasRenderer): void;
     }
 }
 

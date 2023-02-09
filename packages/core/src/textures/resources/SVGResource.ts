@@ -1,9 +1,9 @@
-import { settings } from '@pixi/settings';
-import { uid } from '@pixi/utils';
+import { settings } from 'pixi/settings.ts';
+import { uid } from 'pixi/utils.ts';
 import { BaseImageResource } from './BaseImageResource';
 
-import type { ISize } from '@pixi/math';
-import type { ICanvas } from '@pixi/settings';
+import type { ISize } from 'pixi/math.ts';
+import type { ICanvas } from 'pixi/settings.ts';
 
 export interface ISVGResourceOptions
 {

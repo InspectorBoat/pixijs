@@ -9,7 +9,7 @@ npm install @pixi/graphics
 ## Usage
 
 ```js
-import { Graphics } from '@pixi/graphics';
+import { Graphics } from 'pixi/graphics.ts';
 
 const shapes = new Graphics();
 ```

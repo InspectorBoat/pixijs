@@ -1,4 +1,4 @@
-import { Runner } from '@pixi/runner';
+import { Runner } from 'pixi/runner.ts';
 
 import type { Renderer } from '../../Renderer';
 import type { BaseTexture } from '../BaseTexture';

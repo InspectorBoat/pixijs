@@ -1,5 +1,5 @@
-import { FORMATS, MIPMAP_MODES, MSAA_QUALITY, SCALE_MODES, TYPES } from '@pixi/constants';
-import { Runner } from '@pixi/runner';
+import { FORMATS, MIPMAP_MODES, MSAA_QUALITY, SCALE_MODES, TYPES } from 'pixi/constants.ts';
+import { Runner } from 'pixi/runner.ts';
 import { BaseTexture } from '../textures/BaseTexture';
 import { DepthResource } from '../textures/resources/DepthResource';
 

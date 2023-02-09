@@ -1,5 +1,5 @@
-import { CompressedTextureResource } from '@pixi/compressed-textures';
-import { BufferResource, settings, TYPES } from '@pixi/core';
+import { CompressedTextureResource } from 'pixi/compressed-textures';
+import { BufferResource, settings, TYPES } from 'pixi/core.ts';
 import {
     BASIS_FORMAT_TO_INTERNAL_FORMAT,
     BASIS_FORMATS,
@@ -8,7 +8,7 @@ import {
 } from '../Basis';
 import { TranscoderWorker } from '../TranscoderWorker';
 
-import type { CompressedLevelBuffer, INTERNAL_FORMATS } from '@pixi/compressed-textures';
+import type { CompressedLevelBuffer, INTERNAL_FORMATS } from 'pixi/compressed-textures';
 import type { BasisBinding, BasisTextureExtensions } from '../Basis';
 
 export type TranscodedResourcesArray = (Array<CompressedTextureResource> | Array<BufferResource>) & {
@@ -375,7 +375,7 @@ export class BasisParser
     /**
      * Binds the basis_universal transcoder to decompress *.basis files. You must initialize the transcoder library yourself.
      * @example
-     * import { BasisParser } from '@pixi/basis';
+     * import { BasisParser } from 'pixi/basis.ts';
      *
      * // BASIS() returns a Promise-like object
      * globalThis.BASIS().then((basisLibrary) =>

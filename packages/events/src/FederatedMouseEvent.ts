@@ -1,4 +1,4 @@
-import { Point } from '@pixi/core';
+import { Point } from 'pixi/core.ts';
 import { FederatedEvent } from './FederatedEvent';
 
 /**

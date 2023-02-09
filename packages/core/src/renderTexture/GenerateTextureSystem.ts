@@ -1,10 +1,10 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Matrix, Transform } from '@pixi/math';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Matrix, Transform } from 'pixi/math.ts';
 import { RenderTexture } from './RenderTexture';
 
-import type { MSAA_QUALITY, SCALE_MODES } from '@pixi/constants';
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Rectangle } from '@pixi/math';
+import type { MSAA_QUALITY, SCALE_MODES } from 'pixi/constants.ts';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Rectangle } from 'pixi/math.ts';
 import type { IRenderableContainer, IRenderableObject, IRenderer } from '../IRenderer';
 import type { ISystem } from '../system/ISystem';
 

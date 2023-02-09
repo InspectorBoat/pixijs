@@ -9,5 +9,5 @@ npm install @pixi/filter-displacement
 ## Usage
 
 ```js
-import '@pixi/filter-displacement';
+import 'pixi/filter-displacement.ts';
 ```

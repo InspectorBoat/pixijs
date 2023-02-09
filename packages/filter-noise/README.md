@@ -9,5 +9,5 @@ npm install @pixi/filter-noise
 ## Usage
 
 ```js
-import '@pixi/filter-noise';
+import 'pixi/filter-noise.ts';
 ```

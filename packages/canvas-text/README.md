@@ -9,5 +9,5 @@ npm install @pixi/canvas-text
 ## Usage
 
 ```js
-import '@pixi/canvas-text';
+import 'pixi/canvas-text.ts';
 ```

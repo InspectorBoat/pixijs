@@ -1,7 +1,7 @@
-import { Texture } from '@pixi/core';
-import { Mesh, MeshGeometry, MeshMaterial } from '@pixi/mesh';
+import { Texture } from 'pixi/core.ts';
+import { Mesh, MeshGeometry, MeshMaterial } from 'pixi/mesh.ts';
 
-import type { DRAW_MODES, IArrayBuffer, ITypedArray, Renderer } from '@pixi/core';
+import type { DRAW_MODES, IArrayBuffer, ITypedArray, Renderer } from 'pixi/core.ts';
 
 /**
  * The Simple Mesh class mimics Mesh in PixiJS v4, providing easy-to-use constructor arguments.

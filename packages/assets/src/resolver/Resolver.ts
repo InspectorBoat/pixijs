@@ -1,4 +1,4 @@
-import { utils } from '@pixi/core';
+import { utils } from 'pixi/core.ts';
 import { convertToList } from '../utils/convertToList';
 import { createStringVariations } from '../utils/createStringVariations';
 import { isSingleItem } from '../utils/isSingleItem';

@@ -1,7 +1,7 @@
-import { Ticker } from '@pixi/ticker';
+import { Ticker } from 'pixi/ticker.ts';
 import { BaseImageResource } from './BaseImageResource';
 
-import type { Dict } from '@pixi/utils';
+import type { Dict } from 'pixi/utils.ts';
 
 export interface IVideoResourceOptions
 {

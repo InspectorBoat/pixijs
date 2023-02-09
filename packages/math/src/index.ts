@@ -9,13 +9,13 @@ import { Polygon } from './shapes/Polygon';
 import { Rectangle } from './shapes/Rectangle';
 import { RoundedRectangle } from './shapes/RoundedRectangle';
 
-export * from './groupD8';
-export * from './IPoint';
-export * from './IPointData';
-export * from './Matrix';
-export * from './ObservablePoint';
-export * from './Point';
-export * from './Transform';
+export * from './groupD8.ts';
+export * from './IPoint.ts';
+export * from './IPointData.ts';
+export * from './Matrix.ts';
+export * from './ObservablePoint.ts';
+export * from './Point.ts';
+export * from './Transform.ts';
 
 export { Circle };
 export { Ellipse };
@@ -23,7 +23,7 @@ export { Polygon };
 export { Rectangle };
 export { RoundedRectangle };
 
-export * from './const';
+export * from './const.ts';
 
 /*
  * @description Complex shape type

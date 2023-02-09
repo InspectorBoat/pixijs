@@ -1,12 +1,12 @@
-import { BUFFER_TYPE } from '@pixi/constants';
-import { Runner } from '@pixi/runner';
-import { getBufferType } from '@pixi/utils';
+import { BUFFER_TYPE } from 'pixi/constants.ts';
+import { Runner } from 'pixi/runner.ts';
+import { getBufferType } from 'pixi/utils.ts';
 import { Attribute } from './Attribute';
 import { Buffer } from './Buffer';
 import { interleaveTypedArrays } from './utils/interleaveTypedArrays';
 
-import type { TYPES } from '@pixi/constants';
-import type { Dict } from '@pixi/utils';
+import type { TYPES } from 'pixi/constants.ts';
+import type { Dict } from 'pixi/utils.ts';
 import type { IArrayBuffer } from './Buffer';
 
 const byteSizeMap: {[key: number]: number} = { 5126: 4, 5123: 2, 5121: 1 };

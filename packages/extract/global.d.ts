@@ -2,6 +2,6 @@ declare namespace GlobalMixins
 {
     interface Renderer
     {
-        readonly extract: import('@pixi/extract').Extract;
+        readonly extract: import('pixi/extract').Extract;
     }
 }

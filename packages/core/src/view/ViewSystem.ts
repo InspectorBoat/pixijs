@@ -1,9 +1,9 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Rectangle } from '@pixi/math';
-import { settings } from '@pixi/settings';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Rectangle } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { ICanvas } from '@pixi/settings';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { ICanvas } from 'pixi/settings.ts';
 import type { IRenderer } from '../IRenderer';
 import type { ISystem } from '../system/ISystem';
 

@@ -1,8 +1,8 @@
-import { BLEND_MODES, Color, ObservablePoint, Point, Rectangle, settings, Texture, utils } from '@pixi/core';
-import { Bounds, Container } from '@pixi/display';
+import { BLEND_MODES, Color, ObservablePoint, Point, Rectangle, settings, Texture, utils } from 'pixi/core.ts';
+import { Bounds, Container } from 'pixi/display.ts';
 
-import type { IBaseTextureOptions, IPointData, Renderer, TextureSource } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
+import type { IBaseTextureOptions, IPointData, Renderer, TextureSource } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
 
 const tempPoint = new Point();
 const indices = new Uint16Array([0, 1, 2, 0, 2, 3]);

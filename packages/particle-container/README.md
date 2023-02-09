@@ -9,5 +9,5 @@ npm install @pixi/particle-container
 ## Usage
 
 ```js
-import '@pixi/particle-container';
+import 'pixi/particle-container.ts';
 ```

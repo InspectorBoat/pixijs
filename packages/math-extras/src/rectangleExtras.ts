@@ -1,4 +1,4 @@
-import { Rectangle } from '@pixi/core';
+import { Rectangle } from 'pixi/core.ts';
 
 /**
  * Determines whether the `other` Rectangle is contained within `this` Rectangle object.

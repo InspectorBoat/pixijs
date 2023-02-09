@@ -1,4 +1,4 @@
-import { utils } from '@pixi/core';
+import { utils } from 'pixi/core.ts';
 
 export function checkExtension(url: string, extension: string | string[]): boolean
 {

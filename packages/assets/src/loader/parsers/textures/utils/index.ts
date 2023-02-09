@@ -1,1 +1,1 @@
-export * from './createTexture';
+export * from './createTexture.ts';

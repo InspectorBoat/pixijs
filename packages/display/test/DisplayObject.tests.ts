@@ -1,5 +1,5 @@
-import { DEG_TO_RAD, RAD_TO_DEG } from '@pixi/core';
-import { Container, DisplayObject } from '@pixi/display';
+import { DEG_TO_RAD, RAD_TO_DEG } from 'pixi/core.ts';
+import { Container, DisplayObject } from 'pixi/display.ts';
 
 describe('DisplayObject', () =>
 {

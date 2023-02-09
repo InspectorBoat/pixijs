@@ -2,7 +2,7 @@
 /* eslint-disable */
 
 import { TEXT_GRADIENT } from './const';
-import { Color } from '@pixi/core';
+import { Color } from 'pixi/core.ts';
 
 export type TextStyleAlign = 'left'|'center'|'right'|'justify';
 export type TextStyleFill = string|string[]|number|number[]|CanvasGradient|CanvasPattern;

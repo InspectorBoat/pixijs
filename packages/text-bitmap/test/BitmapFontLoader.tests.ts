@@ -1,9 +1,9 @@
-import { Cache, loadTextures, loadTxt } from '@pixi/assets';
-import { utils } from '@pixi/core';
-import { BitmapFont, loadBitmapFont } from '@pixi/text-bitmap';
+import { Cache, loadTextures, loadTxt } from 'pixi/assets.ts';
+import { utils } from 'pixi/core.ts';
+import { BitmapFont, loadBitmapFont } from 'pixi/text-bitmap';
 import { Loader } from '../../assets/src/loader/Loader';
 
-import type { ImageResource, Texture } from '@pixi/core';
+import type { ImageResource, Texture } from 'pixi/core.ts';
 
 describe('BitmapFontLoader', () =>
 {

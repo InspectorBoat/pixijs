@@ -1,8 +1,8 @@
 import { Texture } from '../textures/Texture';
 import { BaseRenderTexture } from './BaseRenderTexture';
 
-import type { MSAA_QUALITY } from '@pixi/constants';
-import type { Rectangle } from '@pixi/math';
+import type { MSAA_QUALITY } from 'pixi/constants.ts';
+import type { Rectangle } from 'pixi/math.ts';
 import type { Framebuffer } from '../framebuffer/Framebuffer';
 import type { IBaseTextureOptions } from '../textures/BaseTexture';
 

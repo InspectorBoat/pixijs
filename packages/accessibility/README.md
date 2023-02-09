@@ -9,5 +9,5 @@ npm install @pixi/accessibility
 ## Usage
 
 ```js
-import '@pixi/accessibility';
+import 'pixi/accessibility.ts';
 ```

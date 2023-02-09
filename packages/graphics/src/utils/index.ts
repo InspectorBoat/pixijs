@@ -5,25 +5,25 @@
  */
 
 // for type only
-import { SHAPES } from '@pixi/core';
+import { SHAPES } from 'pixi/core.ts';
 import { buildCircle } from './buildCircle';
 import { buildPoly } from './buildPoly';
 import { buildRectangle } from './buildRectangle';
 import { buildRoundedRectangle } from './buildRoundedRectangle';
 
-import type { BatchDrawCall } from '@pixi/core';
+import type { BatchDrawCall } from 'pixi/core.ts';
 import type { BatchPart } from './BatchPart';
 import type { IShapeBuildCommand } from './IShapeBuildCommand';
 
-export * from './ArcUtils';
-export * from './BatchPart';
-export * from './BezierUtils';
-export * from './buildCircle';
-export * from './buildLine';
-export * from './buildPoly';
-export * from './buildRectangle';
-export * from './buildRoundedRectangle';
-export * from './QuadraticUtils';
+export * from './ArcUtils.ts';
+export * from './BatchPart.ts';
+export * from './BezierUtils.ts';
+export * from './buildCircle.ts';
+export * from './buildLine.ts';
+export * from './buildPoly.ts';
+export * from './buildRectangle.ts';
+export * from './buildRoundedRectangle.ts';
+export * from './QuadraticUtils.ts';
 
 /**
  * Map of fill commands for each shape type.

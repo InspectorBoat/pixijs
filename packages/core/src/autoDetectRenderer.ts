@@ -1,6 +1,6 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { ICanvas } from '@pixi/settings';
+import type { ICanvas } from 'pixi/settings.ts';
 import type { IRenderer, IRendererOptions } from './IRenderer';
 
 /**

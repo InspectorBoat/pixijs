@@ -1,9 +1,9 @@
-import { MSAA_QUALITY } from '@pixi/constants';
-import { nextPow2 } from '@pixi/utils';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
+import { nextPow2 } from 'pixi/utils.ts';
 import { BaseRenderTexture } from './BaseRenderTexture';
 import { RenderTexture } from './RenderTexture';
 
-import type { ISize } from '@pixi/math';
+import type { ISize } from 'pixi/math.ts';
 import type { IBaseTextureOptions } from '../textures/BaseTexture';
 
 /**

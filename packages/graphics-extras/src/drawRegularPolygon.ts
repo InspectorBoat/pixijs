@@ -1,4 +1,4 @@
-import type { Graphics } from '@pixi/graphics';
+import type { Graphics } from 'pixi/graphics.ts';
 
 /**
  * Draw a regular polygon where all sides are the same length.

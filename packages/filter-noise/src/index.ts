@@ -1,1 +1,1 @@
-export * from './NoiseFilter';
+export * from './NoiseFilter.ts';

@@ -1,4 +1,4 @@
-import { Color } from '@pixi/color';
+import { Color } from 'pixi/color.ts';
 import { deprecation } from '../logging/deprecation';
 
 /**

@@ -1,6 +1,6 @@
-import { Filter, Rectangle, Renderer } from '@pixi/core';
-import { Container, DisplayObject } from '@pixi/display';
-import '@pixi/mixin-cache-as-bitmap';
+import { Filter, Rectangle, Renderer } from 'pixi/core.ts';
+import { Container, DisplayObject } from 'pixi/display.ts';
+import 'pixi/mixin-cache-as-bitmap.ts';
 
 describe('DisplayObject#cacheAsBitmap', () =>
 {

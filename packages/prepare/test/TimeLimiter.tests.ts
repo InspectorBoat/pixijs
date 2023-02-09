@@ -1,4 +1,4 @@
-import { TimeLimiter } from '@pixi/prepare';
+import { TimeLimiter } from 'pixi/prepare.ts';
 
 describe('TimeLimiter', () =>
 {

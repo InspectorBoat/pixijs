@@ -1,7 +1,7 @@
-import { canvasUtils } from '@pixi/canvas-renderer';
-import { NineSlicePlane } from '@pixi/mesh-extras';
+import { canvasUtils } from 'pixi/canvas-renderer';
+import { NineSlicePlane } from 'pixi/mesh-extras';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Cached tint value so we can tell when the tint is changed.

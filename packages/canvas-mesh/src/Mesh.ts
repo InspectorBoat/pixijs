@@ -1,6 +1,6 @@
-import { Mesh } from '@pixi/mesh';
+import { Mesh } from 'pixi/mesh.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 let warned = false;
 

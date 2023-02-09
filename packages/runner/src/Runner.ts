@@ -5,7 +5,7 @@
  * Like a signal:
  *
  * ```js
- * import { Runner } from '@pixi/runner';
+ * import { Runner } from 'pixi/runner.ts';
  *
  * const myObject = {
  *     loaded: new Runner('loaded'),
@@ -25,7 +25,7 @@
  * Or for handling calling the same function on many items:
  *
  * ```js
- * import { Runner } from '@pixi/runner';
+ * import { Runner } from 'pixi/runner.ts';
  *
  * const myGame = {
  *     update: new Runner('update'),
@@ -109,7 +109,7 @@ export class Runner
      * E.g. A listener passed to this Runner will require a 'complete' function.
      *
      * ```js
-     * import { Runner } from '@pixi/runner';
+     * import { Runner } from 'pixi/runner.ts';
      *
      * const complete = new Runner('complete');
      * ```

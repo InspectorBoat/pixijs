@@ -13,10 +13,10 @@ npm install @pixi/unsafe-eval
 Import `@pixi/unsafe-eval` before you create `Application` or `Renderer`.
 
 ```js
-import { Renderer } from '@pixi/core';
+import { Renderer } from 'pixi/core.ts';
 
 // Apply the patch to PIXI
-import '@pixi/unsafe-eval';
+import 'pixi/unsafe-eval.ts';
 
 // Create the renderer with patch applied
 const renderer = new Renderer();

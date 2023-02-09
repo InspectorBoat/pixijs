@@ -1,6 +1,6 @@
-import { Assets } from '@pixi/assets';
-import { Texture } from '@pixi/core';
-import { Spritesheet } from '@pixi/spritesheet';
+import { Assets } from 'pixi/assets.ts';
+import { Texture } from 'pixi/core.ts';
+import { Spritesheet } from 'pixi/spritesheet.ts';
 
 import type { BundleIdentifierOptions } from '../src/resolver/Resolver';
 

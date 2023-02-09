@@ -171,7 +171,7 @@ just download one of our [prebuilt releases](https://github.com/pixijs/pixijs/re
 The only time you should need to build PixiJS is if you are developing it.
 
 If you don't already have Node.js and NPM, go install them. Then, in the folder where you have cloned
-the repository, install the build dependencies using npm:
+the repository, install the build dependencies using 
 
 ```sh
 npm install
@@ -202,7 +202,7 @@ For non-mac users, please refer to the [canvas installation guide](https://www.n
 
 ### How to generate the documentation ###
 
-The docs can be generated using npm:
+The docs can be generated using 
 
 ```sh
 npm run docs

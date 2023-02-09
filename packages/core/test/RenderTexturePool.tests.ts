@@ -1,4 +1,4 @@
-import { RenderTexturePool } from '@pixi/core';
+import { RenderTexturePool } from 'pixi/core.ts';
 
 describe('RenderTexturePool', () =>
 {

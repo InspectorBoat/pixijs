@@ -1,4 +1,4 @@
-import { TextStyle } from '@pixi/text';
+import { TextStyle } from 'pixi/text.ts';
 
 describe('TextStyle', () =>
 {

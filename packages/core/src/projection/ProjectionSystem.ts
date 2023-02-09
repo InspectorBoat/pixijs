@@ -1,8 +1,8 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Matrix } from '@pixi/math';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Matrix } from 'pixi/math.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Rectangle } from '@pixi/math';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Rectangle } from 'pixi/math.ts';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';
 

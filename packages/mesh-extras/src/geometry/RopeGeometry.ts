@@ -1,6 +1,6 @@
-import { MeshGeometry } from '@pixi/mesh';
+import { MeshGeometry } from 'pixi/mesh.ts';
 
-import type { IPoint } from '@pixi/core';
+import type { IPoint } from 'pixi/core.ts';
 
 /**
  * RopeGeometry allows you to draw a geometry across several points and then manipulate these points.

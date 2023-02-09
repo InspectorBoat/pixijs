@@ -1,8 +1,8 @@
-import { BaseTexture, extensions, ExtensionType } from '@pixi/core';
-import { Graphics } from '@pixi/graphics';
+import { BaseTexture, extensions, ExtensionType } from 'pixi/core.ts';
+import { Graphics } from 'pixi/graphics.ts';
 import { BasePrepare } from './BasePrepare';
 
-import type { ExtensionMetadata, IRenderer, ISystem, Renderer } from '@pixi/core';
+import type { ExtensionMetadata, IRenderer, ISystem, Renderer } from 'pixi/core.ts';
 import type { IDisplayObjectExtended } from './BasePrepare';
 
 /**

@@ -1,6 +1,6 @@
-import { SimpleMesh } from '@pixi/mesh-extras';
+import { SimpleMesh } from 'pixi/mesh-extras';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Renders the object using the Canvas renderer

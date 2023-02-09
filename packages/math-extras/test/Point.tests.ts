@@ -1,5 +1,5 @@
-import { ObservablePoint, Point } from '@pixi/core';
-import '@pixi/math-extras';
+import { ObservablePoint, Point } from 'pixi/core.ts';
+import 'pixi/math-extras.ts';
 
 describe('Point', () =>
 {

@@ -1,9 +1,9 @@
 /// <reference path="../global.d.ts" />
-import './BaseTexture';
+import './BaseTexture.ts';
 
-export * from './CanvasContextSystem';
-export * from './CanvasMaskSystem';
-export * from './CanvasObjectRendererSystem';
-export * from './CanvasRenderer';
-export * from './canvasUtils';
-export * from './utils/canUseNewCanvasBlendModes';
+export * from './CanvasContextSystem.ts';
+export * from './CanvasMaskSystem.ts';
+export * from './CanvasObjectRendererSystem.ts';
+export * from './CanvasRenderer.ts';
+export * from './canvasUtils.ts';
+export * from './utils/canUseNewCanvasBlendModes.ts';

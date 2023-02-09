@@ -9,5 +9,5 @@ npm install @pixi/mixin-get-global-position
 ## Usage
 
 ```js
-import '@pixi/mixin-get-global-position';
+import 'pixi/mixin-get-global-position.ts';
 ```

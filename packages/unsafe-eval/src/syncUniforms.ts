@@ -1,4 +1,4 @@
-import type { IRenderingContext, IUniformData, Renderer, UniformGroup } from '@pixi/core';
+import type { IRenderingContext, IUniformData, Renderer, UniformGroup } from 'pixi/core.ts';
 
 // cv = CachedValue
 // v = value

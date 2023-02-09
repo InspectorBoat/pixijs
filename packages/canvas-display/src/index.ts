@@ -1,3 +1,3 @@
 /// <reference path="../global.d.ts" />
-import './Container';
-import './DisplayObject';
+import './Container.ts';
+import './DisplayObject.ts';

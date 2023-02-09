@@ -1,4 +1,4 @@
-import { Ticker, TickerPlugin, UPDATE_PRIORITY } from '@pixi/ticker';
+import { Ticker, TickerPlugin, UPDATE_PRIORITY } from 'pixi/ticker.ts';
 
 describe('TickerPlugin', () =>
 {

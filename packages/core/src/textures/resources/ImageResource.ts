@@ -1,5 +1,5 @@
-import { ALPHA_MODES } from '@pixi/constants';
-import { settings } from '@pixi/settings';
+import { ALPHA_MODES } from 'pixi/constants.ts';
+import { settings } from 'pixi/settings.ts';
 import { BaseImageResource } from './BaseImageResource';
 
 import type { Renderer } from '../../Renderer';

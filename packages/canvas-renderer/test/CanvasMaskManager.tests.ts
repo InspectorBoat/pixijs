@@ -1,8 +1,8 @@
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { Container } from '@pixi/display';
-import { Graphics } from '@pixi/graphics';
-import { Sprite } from '@pixi/sprite';
-import '@pixi/canvas-display';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { Container } from 'pixi/display.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import { Sprite } from 'pixi/sprite.ts';
+import 'pixi/canvas-display.ts';
 
 describe('CanvasMaskManager', () =>
 {

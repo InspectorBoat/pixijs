@@ -1,4 +1,4 @@
-import { extensions, ExtensionType, settings } from '@pixi/core';
+import { extensions, ExtensionType, settings } from 'pixi/core.ts';
 
 import type { FormatDetectionParser } from '..';
 

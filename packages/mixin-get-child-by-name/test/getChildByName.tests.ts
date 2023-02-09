@@ -1,5 +1,5 @@
-import { Container, DisplayObject } from '@pixi/display';
-import '@pixi/mixin-get-child-by-name';
+import { Container, DisplayObject } from 'pixi/display.ts';
+import 'pixi/mixin-get-child-by-name.ts';
 
 describe('DisplayObject#name', () =>
 {

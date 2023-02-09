@@ -1,4 +1,4 @@
-import { BlurFilter } from '@pixi/filter-blur';
+import { BlurFilter } from 'pixi/filter-blur';
 
 describe('BlurFilter', () =>
 {

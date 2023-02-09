@@ -7,10 +7,10 @@ import {
     getUBOData,
     Shader,
     UniformGroup,
-} from '@pixi/core';
-import { Matrix, Point, Rectangle } from '@pixi/math';
+} from 'pixi/core.ts';
+import { Matrix, Point, Rectangle } from 'pixi/math.ts';
 
-import type { IRenderingContext } from '@pixi/core';
+import type { IRenderingContext } from 'pixi/core.ts';
 
 const vertexSrc = `
 #version 300 es

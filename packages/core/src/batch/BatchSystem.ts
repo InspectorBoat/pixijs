@@ -1,7 +1,7 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 import { ObjectRenderer } from './ObjectRenderer';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';
 import type { BaseTexture } from '../textures/BaseTexture';

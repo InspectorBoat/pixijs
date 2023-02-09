@@ -1,7 +1,7 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Matrix } from '@pixi/math';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Matrix } from 'pixi/math.ts';
 import type { IRenderableObject, IRendererRenderOptions } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { RenderTexture } from '../renderTexture/RenderTexture';

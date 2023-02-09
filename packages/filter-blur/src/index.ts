@@ -1,2 +1,2 @@
-export * from './BlurFilter';
-export * from './BlurFilterPass';
+export * from './BlurFilter.ts';
+export * from './BlurFilterPass.ts';

@@ -1,9 +1,9 @@
-import { DRAW_MODES, Point, Polygon, settings, State } from '@pixi/core';
-import { Container } from '@pixi/display';
+import { DRAW_MODES, Point, Polygon, settings, State } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
 import { MeshBatchUvs } from './MeshBatchUvs';
 
-import type { BLEND_MODES, Buffer, Geometry, IPointData, Renderer, Shader, Texture } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
+import type { BLEND_MODES, Buffer, Geometry, IPointData, Renderer, Shader, Texture } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
 import type { MeshMaterial } from './MeshMaterial';
 
 const tempPoint = new Point();

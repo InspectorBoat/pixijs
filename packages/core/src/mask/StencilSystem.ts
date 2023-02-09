@@ -1,8 +1,8 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { settings } from '@pixi/settings';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { settings } from 'pixi/settings.ts';
 import { AbstractMaskSystem } from './AbstractMaskSystem';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { IMaskTarget, MaskData } from './MaskData';
 

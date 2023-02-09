@@ -1,8 +1,8 @@
-import { WRAP_MODES } from '@pixi/core';
-import { Mesh, MeshMaterial } from '@pixi/mesh';
+import { WRAP_MODES } from 'pixi/core.ts';
+import { Mesh, MeshMaterial } from 'pixi/mesh.ts';
 import { RopeGeometry } from './geometry/RopeGeometry';
 
-import type { IPoint, Renderer, Texture } from '@pixi/core';
+import type { IPoint, Renderer, Texture } from 'pixi/core.ts';
 
 /**
  * The rope allows you to draw a texture across several points and then manipulate these points

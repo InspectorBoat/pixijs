@@ -17,5 +17,5 @@ npm install @pixi/compressed-textures
 ## Usage
 
 ```js
-import '@pixi/compressed-textures';
+import 'pixi/compressed-textures.ts';
 ```

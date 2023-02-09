@@ -1,5 +1,5 @@
-import { Container, DisplayObject } from '@pixi/display';
-import '@pixi/mixin-get-global-position';
+import { Container, DisplayObject } from 'pixi/display.ts';
+import 'pixi/mixin-get-global-position.ts';
 
 describe('DisplayObject#getGlobalPosition', () =>
 {

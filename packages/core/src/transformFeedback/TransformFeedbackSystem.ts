@@ -1,7 +1,7 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { DRAW_MODES } from '@pixi/constants';
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { DRAW_MODES } from 'pixi/constants.ts';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { Shader } from '../shader/Shader';

@@ -1,3 +1,3 @@
-export * from './parsers';
+export * from './parsers.ts';
 export type { Resolver } from './Resolver';
-export * from './types';
+export * from './types.ts';

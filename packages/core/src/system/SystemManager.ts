@@ -1,5 +1,5 @@
-import { Runner } from '@pixi/runner';
-import { EventEmitter } from '@pixi/utils';
+import { Runner } from 'pixi/runner.ts';
+import { EventEmitter } from 'pixi/utils.ts';
 
 import type { IRenderer } from '../IRenderer';
 import type { ISystem, ISystemConstructor } from './ISystem';

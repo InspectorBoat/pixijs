@@ -1,7 +1,7 @@
-import { BaseTexture, BLEND_MODES, Color, extensions, ExtensionType, Matrix, SCALE_MODES } from '@pixi/core';
+import { BaseTexture, BLEND_MODES, Color, extensions, ExtensionType, Matrix, SCALE_MODES } from 'pixi/core.ts';
 import { mapCanvasBlendModesToPixi } from './utils/mapCanvasBlendModesToPixi';
 
-import type { ColorSource, ExtensionMetadata, ICanvasRenderingContext2D, ISystem } from '@pixi/core';
+import type { ColorSource, ExtensionMetadata, ICanvasRenderingContext2D, ISystem } from 'pixi/core.ts';
 import type { CanvasRenderer } from './CanvasRenderer';
 
 const tempMatrix = new Matrix();

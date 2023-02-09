@@ -1,7 +1,7 @@
-import { ALPHA_MODES } from '@pixi/constants';
+import { ALPHA_MODES } from 'pixi/constants.ts';
 import { Resource } from './Resource';
 
-import type { ISize } from '@pixi/math';
+import type { ISize } from 'pixi/math.ts';
 import type { Renderer } from '../../Renderer';
 import type { BaseTexture } from '../BaseTexture';
 import type { GLTexture } from '../GLTexture';

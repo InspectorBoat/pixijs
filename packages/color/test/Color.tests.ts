@@ -1,6 +1,6 @@
-import { Color } from '@pixi/color';
+import { Color } from 'pixi/color.ts';
 
-import type { ColorSource } from '@pixi/color';
+import type { ColorSource } from 'pixi/color.ts';
 
 describe('Color', () =>
 {

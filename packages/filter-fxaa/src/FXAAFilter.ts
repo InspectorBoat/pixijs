@@ -1,4 +1,4 @@
-import { Filter } from '@pixi/core';
+import { Filter } from 'pixi/core.ts';
 import fragment from './fxaa.frag';
 import vertex from './fxaa.vert';
 

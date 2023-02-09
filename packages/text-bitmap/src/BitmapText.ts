@@ -1,14 +1,14 @@
-import { BLEND_MODES, ObservablePoint, Point, Program, settings, Texture, utils } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Mesh, MeshGeometry, MeshMaterial } from '@pixi/mesh';
+import { BLEND_MODES, ObservablePoint, Point, Program, settings, Texture, utils } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Mesh, MeshGeometry, MeshMaterial } from 'pixi/mesh.ts';
 import { BitmapFont } from './BitmapFont';
 import msdfFrag from './shader/msdf.frag';
 import msdfVert from './shader/msdf.vert';
 import { extractCharCode, splitTextToCharacters } from './utils';
 
-import type { Rectangle, Renderer } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
-import type { TextStyleAlign } from '@pixi/text';
+import type { Rectangle, Renderer } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
+import type { TextStyleAlign } from 'pixi/text.ts';
 import type { IBitmapTextStyle } from './BitmapTextStyle';
 
 interface PageMeshData

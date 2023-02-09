@@ -1,4 +1,4 @@
-import { utils } from '@pixi/core';
+import { utils } from 'pixi/core.ts';
 import { convertToList, isSingleItem } from '../utils';
 
 import type { LoaderParser } from './parsers/LoaderParser';

@@ -1,4 +1,4 @@
-import { trimCanvas } from '@pixi/utils';
+import { trimCanvas } from 'pixi/utils.ts';
 
 describe('trimCanvas', () =>
 {

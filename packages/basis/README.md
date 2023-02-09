@@ -11,7 +11,7 @@ npm install @pixi/basis
 ## Usage
 
 ```js
-import '@pixi/basis';
+import 'pixi/basis.ts';
 ```
 
 ## CDN Install

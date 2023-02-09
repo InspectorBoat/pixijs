@@ -11,7 +11,7 @@ npm install @pixi/ticker
 Create a Ticker object directly:
 
 ```js
-import { Ticker } from '@pixi/ticker';
+import { Ticker } from 'pixi/ticker.ts';
 
 const ticker = new Ticker();
 ticker.start();
@@ -20,8 +20,8 @@ ticker.start();
 Use as an Application plugin:
 
 ```js
-import '@pixi/ticker';
-import { Application } from '@pixi/app';
+import 'pixi/ticker.ts';
+import { Application } from 'pixi/app.ts';
 
 const app = new Application();
 app.ticker.start();

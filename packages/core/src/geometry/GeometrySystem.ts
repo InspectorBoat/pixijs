@@ -1,10 +1,10 @@
-import { BUFFER_TYPE, ENV } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { settings } from '@pixi/settings';
+import { BUFFER_TYPE, ENV } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { settings } from 'pixi/settings.ts';
 
-import type { DRAW_MODES } from '@pixi/constants';
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Dict } from '@pixi/utils';
+import type { DRAW_MODES } from 'pixi/constants.ts';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Dict } from 'pixi/utils.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { Program } from '../shader/Program';

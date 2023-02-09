@@ -1,6 +1,6 @@
-import { Texture } from '@pixi/core';
+import { Texture } from 'pixi/core.ts';
 
-import type { BaseTexture } from '@pixi/core';
+import type { BaseTexture } from 'pixi/core.ts';
 import type { Loader } from '../../../Loader';
 
 export function createTexture(base: BaseTexture, loader: Loader, url: string)

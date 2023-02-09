@@ -1,6 +1,6 @@
-import { BaseTexture, Rectangle, Texture, utils } from '@pixi/core';
+import { BaseTexture, Rectangle, Texture, utils } from 'pixi/core.ts';
 
-import type { ImageResource, IPointData } from '@pixi/core';
+import type { ImageResource, IPointData } from 'pixi/core.ts';
 
 /** Represents the JSON data for a spritesheet atlas. */
 export interface ISpritesheetFrameData

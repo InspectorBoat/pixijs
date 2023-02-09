@@ -1,6 +1,6 @@
-import { MSAA_QUALITY } from '@pixi/constants';
-import { Framebuffer, Renderer } from '@pixi/core';
-import { Rectangle } from '@pixi/math';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
+import { Framebuffer, Renderer } from 'pixi/core.ts';
+import { Rectangle } from 'pixi/math.ts';
 
 describe('FramebufferSystem', () =>
 {

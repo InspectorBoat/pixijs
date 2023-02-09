@@ -1,1 +1,1 @@
-export * from './ColorMatrixFilter';
+export * from './ColorMatrixFilter.ts';

@@ -1,12 +1,12 @@
-import { checkExtension, createTexture, LoaderParserPriority } from '@pixi/assets';
-import { CompressedTextureResource } from '@pixi/compressed-textures';
-import { ALPHA_MODES, BaseTexture, extensions, ExtensionType, FORMATS, MIPMAP_MODES, settings } from '@pixi/core';
+import { checkExtension, createTexture, LoaderParserPriority } from 'pixi/assets.ts';
+import { CompressedTextureResource } from 'pixi/compressed-textures';
+import { ALPHA_MODES, BaseTexture, extensions, ExtensionType, FORMATS, MIPMAP_MODES, settings } from 'pixi/core.ts';
 import { BASIS_FORMAT_TO_TYPE, BASIS_FORMATS } from '../Basis';
 import { TranscoderWorker } from '../TranscoderWorker';
 import { BasisParser } from './BasisParser';
 
-import type { LoadAsset, Loader, LoaderParser } from '@pixi/assets';
-import type { IBaseTextureOptions, Texture, TYPES } from '@pixi/core';
+import type { LoadAsset, Loader, LoaderParser } from 'pixi/assets.ts';
+import type { IBaseTextureOptions, Texture, TYPES } from 'pixi/core.ts';
 
 /** Load BASIS textures! */
 export const loadBasis = {

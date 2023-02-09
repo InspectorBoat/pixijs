@@ -1,4 +1,4 @@
-import { settings, utils } from '@pixi/core';
+import { settings, utils } from 'pixi/core.ts';
 import { BasePrepare } from './BasePrepare';
 
 Object.defineProperties(settings, {

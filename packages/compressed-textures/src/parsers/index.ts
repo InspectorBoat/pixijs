@@ -1,3 +1,3 @@
-export * from './parseDDS';
-export * from './parseKTX';
+export * from './parseDDS.ts';
+export * from './parseKTX.ts';
 

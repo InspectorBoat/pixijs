@@ -1,6 +1,6 @@
-import { settings } from '@pixi/settings';
+import { settings } from 'pixi/settings.ts';
 
-import type { ICanvas, ICanvasRenderingContext2D } from '@pixi/settings';
+import type { ICanvas, ICanvasRenderingContext2D } from 'pixi/settings.ts';
 
 /**
  * Creates a Canvas element of the given size to be used as a target for rendering to.

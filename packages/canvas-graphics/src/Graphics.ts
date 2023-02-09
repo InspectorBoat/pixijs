@@ -1,8 +1,8 @@
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { Matrix, RenderTexture, Texture } from '@pixi/core';
-import { Graphics } from '@pixi/graphics';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { Matrix, RenderTexture, Texture } from 'pixi/core.ts';
+import { Graphics } from 'pixi/graphics.ts';
 
-import type { BaseRenderTexture, SCALE_MODES } from '@pixi/core';
+import type { BaseRenderTexture, SCALE_MODES } from 'pixi/core.ts';
 
 let canvasRenderer: CanvasRenderer;
 const tempMatrix = new Matrix();

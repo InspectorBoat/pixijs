@@ -1,8 +1,8 @@
-import { Color } from '@pixi/core';
+import { Color } from 'pixi/core.ts';
 import { generateFillStyle } from './generateFillStyle';
 
-import type { ICanvas, ICanvasRenderingContext2D } from '@pixi/core';
-import type { TextMetrics, TextStyle } from '@pixi/text';
+import type { ICanvas, ICanvasRenderingContext2D } from 'pixi/core.ts';
+import type { TextMetrics, TextStyle } from 'pixi/text.ts';
 
 // TODO: Prevent code duplication b/w drawGlyph & Text#updateText
 

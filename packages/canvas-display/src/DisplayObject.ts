@@ -1,6 +1,6 @@
-import { DisplayObject } from '@pixi/display';
+import { DisplayObject } from 'pixi/display.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Renders the object using the Canvas renderer

@@ -1,5 +1,5 @@
-import { BUFFER_TYPE } from '@pixi/constants';
-import { Runner } from '@pixi/runner';
+import { BUFFER_TYPE } from 'pixi/constants.ts';
+import { Runner } from 'pixi/runner.ts';
 
 import type { GLBuffer } from './GLBuffer';
 

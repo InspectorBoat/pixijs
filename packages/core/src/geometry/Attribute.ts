@@ -1,4 +1,4 @@
-import { TYPES } from '@pixi/constants';
+import { TYPES } from 'pixi/constants.ts';
 
 /* eslint-disable max-len */
 

@@ -1,8 +1,8 @@
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { RenderTexture, Texture } from '@pixi/core';
-import { NineSlicePlane } from '@pixi/mesh-extras';
-import { Sprite } from '@pixi/sprite';
-import '@pixi/canvas-display';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { RenderTexture, Texture } from 'pixi/core.ts';
+import { NineSlicePlane } from 'pixi/mesh-extras';
+import { Sprite } from 'pixi/sprite.ts';
+import 'pixi/canvas-display.ts';
 
 describe('NineSlicePlane', () =>
 {

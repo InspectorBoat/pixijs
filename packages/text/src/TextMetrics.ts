@@ -1,6 +1,6 @@
-import { settings } from '@pixi/core';
+import { settings } from 'pixi/core.ts';
 
-import type { ICanvas, ICanvasRenderingContext2D, ICanvasRenderingContext2DSettings } from '@pixi/core';
+import type { ICanvas, ICanvasRenderingContext2D, ICanvasRenderingContext2DSettings } from 'pixi/core.ts';
 import type { TextStyle, TextStyleWhiteSpace } from './TextStyle';
 
 // The type for Intl.Segmenter is only available since TypeScript 4.7.2, so let's make a polyfill for it.

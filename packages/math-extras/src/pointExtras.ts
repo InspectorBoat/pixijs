@@ -1,6 +1,6 @@
-import { ObservablePoint, Point } from '@pixi/core';
+import { ObservablePoint, Point } from 'pixi/core.ts';
 
-import type { IPointData } from '@pixi/core';
+import type { IPointData } from 'pixi/core.ts';
 
 const mixins: any = {
     /**

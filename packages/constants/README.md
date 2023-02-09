@@ -9,5 +9,5 @@ npm install @pixi/constants
 ## Usage
 
 ```js
-import * as constants from '@pixi/constants';
+import * as constants from 'pixi/constants.ts';
 ```

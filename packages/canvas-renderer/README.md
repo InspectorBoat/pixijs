@@ -9,5 +9,5 @@ npm install @pixi/canvas-renderer
 ## Usage
 
 ```js
-import { CanvasRenderer } from '@pixi/canvas-renderer';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
 ```

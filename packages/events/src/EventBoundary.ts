@@ -1,10 +1,10 @@
-import { Point, utils } from '@pixi/core';
+import { Point, utils } from 'pixi/core.ts';
 import { EventsTicker } from './EventTicker';
 import { FederatedMouseEvent } from './FederatedMouseEvent';
 import { FederatedPointerEvent } from './FederatedPointerEvent';
 import { FederatedWheelEvent } from './FederatedWheelEvent';
 
-import type { DisplayObject } from '@pixi/display';
+import type { DisplayObject } from 'pixi/display.ts';
 import type { FederatedEvent } from './FederatedEvent';
 import type {
     Cursor,
@@ -83,8 +83,8 @@ type EmitterListeners = Record<string,
  * container can be detached from the scene and glued using a custom event boundary.
  *
  * ```ts
- * import { Container } from '@pixi/display';
- * import { EventBoundary } from '@pixi/events';
+ * import { Container } from 'pixi/display.ts';
+ * import { EventBoundary } from 'pixi/events.ts';
  * import { SpatialHash } from 'pixi-spatial-hash';
  *
  * class HashedHitTestingEventBoundary

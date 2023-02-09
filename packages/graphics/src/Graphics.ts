@@ -14,16 +14,16 @@ import {
     State,
     Texture,
     UniformGroup,
-} from '@pixi/core';
-import { Container } from '@pixi/display';
+} from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
 import { curves, LINE_CAP, LINE_JOIN } from './const';
 import { GraphicsGeometry } from './GraphicsGeometry';
 import { FillStyle } from './styles/FillStyle';
 import { LineStyle } from './styles/LineStyle';
 import { ArcUtils, BezierUtils, QuadraticUtils } from './utils';
 
-import type { BatchDrawCall, ColorSource, IPointData, IShape, Renderer } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
+import type { BatchDrawCall, ColorSource, IPointData, IShape, Renderer } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
 
 /** Batch element computed from Graphics geometry */
 export interface IGraphicsBatchElement

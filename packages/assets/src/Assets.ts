@@ -1,4 +1,4 @@
-import { extensions, ExtensionType } from '@pixi/core';
+import { extensions, ExtensionType } from 'pixi/core.ts';
 import { BackgroundLoader } from './BackgroundLoader';
 import { Cache } from './cache/Cache';
 import { Loader } from './loader/Loader';

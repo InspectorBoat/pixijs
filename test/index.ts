@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import parse from 'yargs-parser';
 // Support for the tsconfig path aliasing
-import 'tsconfig-paths/register';
+import 'tsconfig-paths/register.ts';
 
 import type { PackageResult } from './packages';
 

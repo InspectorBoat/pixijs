@@ -9,5 +9,5 @@ npm install @pixi/canvas-graphics
 ## Usage
 
 ```js
-import '@pixi/canvas-graphics';
+import 'pixi/canvas-graphics.ts';
 ```

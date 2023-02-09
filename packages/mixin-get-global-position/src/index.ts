@@ -1,6 +1,6 @@
 /// <reference path="../global.d.ts" />
-import { Point } from '@pixi/core';
-import { DisplayObject } from '@pixi/display';
+import { Point } from 'pixi/core.ts';
+import { DisplayObject } from 'pixi/display.ts';
 
 /**
  * Returns the global position of the displayObject. Does not depend on object scale, rotation and pivot.

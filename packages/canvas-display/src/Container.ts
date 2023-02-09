@@ -1,7 +1,7 @@
-import { Container } from '@pixi/display';
+import { Container } from 'pixi/display.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
-import type { MaskData } from '@pixi/core';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
+import type { MaskData } from 'pixi/core.ts';
 
 /**
  * To be overridden by the subclass

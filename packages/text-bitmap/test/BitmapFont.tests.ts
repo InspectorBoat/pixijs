@@ -1,4 +1,4 @@
-import { BitmapFont } from '@pixi/text-bitmap';
+import { BitmapFont } from 'pixi/text-bitmap';
 
 describe('BitmapFont', () =>
 {

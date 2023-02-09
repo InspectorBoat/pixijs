@@ -1,3 +1,3 @@
-export * from './BasisParser';
-export * from './detectBasis';
-export * from './loadBasis';
+export * from './BasisParser.ts';
+export * from './detectBasis.ts';
+export * from './loadBasis.ts';

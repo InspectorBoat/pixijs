@@ -9,5 +9,5 @@ npm install @pixi/mesh
 ## Usage
 
 ```js
-import '@pixi/mesh';
+import 'pixi/mesh.ts';
 ```

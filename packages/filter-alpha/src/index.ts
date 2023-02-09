@@ -1,1 +1,1 @@
-export * from './AlphaFilter';
+export * from './AlphaFilter.ts';

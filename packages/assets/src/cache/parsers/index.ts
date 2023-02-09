@@ -1,2 +1,2 @@
-export * from './cacheTextureArray';
+export * from './cacheTextureArray.ts';
 

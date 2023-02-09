@@ -1,5 +1,5 @@
-import { settings } from '@pixi/settings';
-import { CanvasRenderTarget } from '@pixi/utils';
+import { settings } from 'pixi/settings.ts';
+import { CanvasRenderTarget } from 'pixi/utils.ts';
 
 describe('CanvasRenderTarget', () =>
 {

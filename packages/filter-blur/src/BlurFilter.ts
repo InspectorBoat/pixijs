@@ -1,7 +1,7 @@
-import { CLEAR_MODES, Filter } from '@pixi/core';
+import { CLEAR_MODES, Filter } from 'pixi/core.ts';
 import { BlurFilterPass } from './BlurFilterPass';
 
-import type { BLEND_MODES, FilterSystem, RenderTexture } from '@pixi/core';
+import type { BLEND_MODES, FilterSystem, RenderTexture } from 'pixi/core.ts';
 
 /**
  * The BlurFilter applies a Gaussian blur to an object.

@@ -9,5 +9,5 @@ npm install @pixi/settings
 ## Usage
 
 ```js
-import { settings } from '@pixi/settings';
+import { settings } from 'pixi/settings.ts';
 ```

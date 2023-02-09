@@ -9,5 +9,5 @@ npm install @pixi/mixin-get-child-by-name
 ## Usage
 
 ```js
-import '@pixi/mixin-get-child-by-name';
+import 'pixi/mixin-get-child-by-name.ts';
 ```

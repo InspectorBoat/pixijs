@@ -1,11 +1,11 @@
-import { extensions, ExtensionType } from '@pixi/core';
+import { extensions, ExtensionType } from 'pixi/core.ts';
 import { EventBoundary } from './EventBoundary';
 import { EventsTicker } from './EventTicker';
 import { FederatedPointerEvent } from './FederatedPointerEvent';
 import { FederatedWheelEvent } from './FederatedWheelEvent';
 
-import type { ExtensionMetadata, IPointData, IRenderer } from '@pixi/core';
-import type { DisplayObject } from '@pixi/display';
+import type { ExtensionMetadata, IPointData, IRenderer } from 'pixi/core.ts';
+import type { DisplayObject } from 'pixi/display.ts';
 import type { Interactive } from './FederatedEventTarget';
 import type { FederatedMouseEvent } from './FederatedMouseEvent';
 

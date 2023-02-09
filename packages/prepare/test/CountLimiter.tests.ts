@@ -1,4 +1,4 @@
-import { CountLimiter } from '@pixi/prepare';
+import { CountLimiter } from 'pixi/prepare.ts';
 
 describe('CountLimiter', () =>
 {

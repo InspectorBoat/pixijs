@@ -1,7 +1,7 @@
 import { INTERNAL_FORMAT_TO_BYTES_PER_PIXEL } from '../const';
 import { BlobResource } from './BlobResource';
 
-import type { BaseTexture, GLTexture, Renderer } from '@pixi/core';
+import type { BaseTexture, GLTexture, Renderer } from 'pixi/core.ts';
 import type { INTERNAL_FORMATS } from '../const';
 
 /**
@@ -54,7 +54,7 @@ export interface ICompressedTextureResourceOptions
  * Since `CompressedTextureResource` inherits `BlobResource`, you can provide it a URL pointing to a file containing
  * the raw texture data (with no file headers!):
  * @example
- * import { CompressedTextureResource, INTERNAL_FORMATS } from '@pixi/compressed-textures';
+ * import { CompressedTextureResource, INTERNAL_FORMATS } from 'pixi/compressed-textures';
  * import { BaseTexture, Texture, ALPHA_MODES } from 'pixi.js';
  *
  * // The resource backing the texture data for your textures.

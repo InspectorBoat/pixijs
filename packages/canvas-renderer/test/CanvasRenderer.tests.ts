@@ -1,7 +1,7 @@
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { Matrix } from '@pixi/core';
-import { Container } from '@pixi/display';
-import '@pixi/canvas-display';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { Matrix } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import 'pixi/canvas-display.ts';
 
 describe('CanvasRenderer', () =>
 {

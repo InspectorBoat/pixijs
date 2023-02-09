@@ -1,9 +1,9 @@
-import { copySearchParams, LoaderParserPriority } from '@pixi/assets';
-import { extensions, ExtensionType, settings, utils } from '@pixi/core';
+import { copySearchParams, LoaderParserPriority } from 'pixi/assets.ts';
+import { extensions, ExtensionType, settings, utils } from 'pixi/core.ts';
 import { Spritesheet } from './Spritesheet';
 
-import type { AssetExtension, LoadAsset, Loader, ResolveAsset } from '@pixi/assets';
-import type { Texture } from '@pixi/core';
+import type { AssetExtension, LoadAsset, Loader, ResolveAsset } from 'pixi/assets.ts';
+import type { Texture } from 'pixi/core.ts';
 import type { ISpritesheetData } from './Spritesheet';
 
 interface SpriteSheetJson extends ISpritesheetData

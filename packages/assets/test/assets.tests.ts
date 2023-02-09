@@ -1,6 +1,6 @@
-import { Assets } from '@pixi/assets';
-import { BaseTexture, Texture } from '@pixi/core';
-import '@pixi/spritesheet';
+import { Assets } from 'pixi/assets.ts';
+import { BaseTexture, Texture } from 'pixi/core.ts';
+import 'pixi/spritesheet.ts';
 
 function wait(value = 500)
 {

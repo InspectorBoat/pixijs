@@ -1,3 +1,3 @@
 /// <reference path="../global.d.ts" />
-export * from './Spritesheet';
-export * from './spritesheetAsset';
+export * from './Spritesheet.ts';
+export * from './spritesheetAsset.ts';

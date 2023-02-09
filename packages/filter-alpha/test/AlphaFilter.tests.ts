@@ -1,4 +1,4 @@
-import { AlphaFilter } from '@pixi/filter-alpha';
+import { AlphaFilter } from 'pixi/filter-alpha';
 
 describe('AlphaFilter', () =>
 {

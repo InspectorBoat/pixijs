@@ -1,7 +1,7 @@
-import { Texture, Ticker, UPDATE_PRIORITY } from '@pixi/core';
-import { Sprite } from '@pixi/sprite';
+import { Texture, Ticker, UPDATE_PRIORITY } from 'pixi/core.ts';
+import { Sprite } from 'pixi/sprite.ts';
 
-import type { IDestroyOptions } from '@pixi/display';
+import type { IDestroyOptions } from 'pixi/display.ts';
 
 /**
  * An AnimatedSprite is a simple way to display an animation depicted by a list of textures.

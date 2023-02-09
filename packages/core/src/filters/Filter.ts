@@ -1,12 +1,12 @@
-import { MSAA_QUALITY } from '@pixi/constants';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
 import { Program } from '../shader/Program';
 import { Shader } from '../shader/Shader';
 import { State } from '../state/State';
 import defaultFragment from './defaultFilter.frag';
 import defaultVertex from './defaultFilter.vert';
 
-import type { BLEND_MODES, CLEAR_MODES } from '@pixi/constants';
-import type { Dict } from '@pixi/utils';
+import type { BLEND_MODES, CLEAR_MODES } from 'pixi/constants.ts';
+import type { Dict } from 'pixi/utils.ts';
 import type { RenderTexture } from '../renderTexture/RenderTexture';
 import type { FilterState } from './FilterState';
 import type { FilterSystem } from './FilterSystem';

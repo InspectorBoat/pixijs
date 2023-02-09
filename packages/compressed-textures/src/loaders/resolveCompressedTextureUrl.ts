@@ -1,6 +1,6 @@
-import { extensions, ExtensionType, settings } from '@pixi/core';
+import { extensions, ExtensionType, settings } from 'pixi/core.ts';
 
-import type { ResolveAsset, ResolveURLParser } from '@pixi/assets';
+import type { ResolveAsset, ResolveURLParser } from 'pixi/assets.ts';
 
 export const resolveCompressedTextureUrl = {
     extension: ExtensionType.ResolveParser,

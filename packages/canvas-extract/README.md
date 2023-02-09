@@ -9,5 +9,5 @@ npm install @pixi/canvas-extract
 ## Usage
 
 ```js
-import '@pixi/canvas-extract';
+import 'pixi/canvas-extract.ts';
 ```

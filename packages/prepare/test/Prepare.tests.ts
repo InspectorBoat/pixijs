@@ -1,7 +1,7 @@
-import { Renderer, Texture } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Graphics } from '@pixi/graphics';
-import { Prepare } from '@pixi/prepare';
+import { Renderer, Texture } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import { Prepare } from 'pixi/prepare.ts';
 
 describe('Prepare', () =>
 {

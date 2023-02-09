@@ -1,5 +1,5 @@
-import { settings, utils } from '@pixi/core';
-import { Mesh } from '@pixi/mesh';
+import { settings, utils } from 'pixi/core.ts';
+import { Mesh } from 'pixi/mesh.ts';
 
 Object.defineProperties(settings, {
     /**

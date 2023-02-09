@@ -1,7 +1,7 @@
-import { MSAA_QUALITY } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';

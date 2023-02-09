@@ -1,12 +1,12 @@
-import { ALPHA_MODES, FORMATS, MIPMAP_MODES, SCALE_MODES, TARGETS, TYPES, WRAP_MODES } from '@pixi/constants';
-import { settings } from '@pixi/settings';
-import { BaseTextureCache, EventEmitter, isPow2, TextureCache, uid } from '@pixi/utils';
+import { ALPHA_MODES, FORMATS, MIPMAP_MODES, SCALE_MODES, TARGETS, TYPES, WRAP_MODES } from 'pixi/constants.ts';
+import { settings } from 'pixi/settings.ts';
+import { BaseTextureCache, EventEmitter, isPow2, TextureCache, uid } from 'pixi/utils.ts';
 import { autoDetectResource } from './resources/autoDetectResource';
 import { BufferResource } from './resources/BufferResource';
 import { Resource } from './resources/Resource';
 
-import type { MSAA_QUALITY } from '@pixi/constants';
-import type { ICanvas } from '@pixi/settings';
+import type { MSAA_QUALITY } from 'pixi/constants.ts';
+import type { ICanvas } from 'pixi/settings.ts';
 import type { GLTexture } from './GLTexture';
 import type { IAutoDetectOptions } from './resources/autoDetectResource';
 

@@ -1,3 +1,3 @@
 /// <reference path="../global.d.ts" />
-export * from './AccessibilityManager';
-export * from './accessibleTarget';
+export * from './AccessibilityManager.ts';
+export * from './accessibleTarget.ts';

@@ -1,5 +1,5 @@
-import { Renderer } from '@pixi/core';
-import { Point, Rectangle } from '@pixi/math';
+import { Renderer } from 'pixi/core.ts';
+import { Point, Rectangle } from 'pixi/math.ts';
 
 describe('ProjectionSystem', () =>
 {

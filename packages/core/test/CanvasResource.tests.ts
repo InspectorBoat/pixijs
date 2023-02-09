@@ -1,4 +1,4 @@
-import { BaseTexture, CanvasResource } from '@pixi/core';
+import { BaseTexture, CanvasResource } from 'pixi/core.ts';
 
 describe('CanvasResource', () =>
 {

@@ -1,5 +1,5 @@
-import { DisplayObject } from '@pixi/display';
-import '@pixi/accessibility';
+import { DisplayObject } from 'pixi/display.ts';
+import 'pixi/accessibility.ts';
 
 describe('accessibleTarget', () =>
 {

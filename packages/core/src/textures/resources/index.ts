@@ -8,8 +8,8 @@ import { ImageResource } from './ImageResource';
 import { SVGResource } from './SVGResource';
 import { VideoResource } from './VideoResource';
 
-export * from './BaseImageResource';
-export * from './Resource';
+export * from './BaseImageResource.ts';
+export * from './Resource.ts';
 
 INSTALLED.push(
     ImageBitmapResource,
@@ -22,13 +22,13 @@ INSTALLED.push(
     ArrayResource
 );
 
-export * from './AbstractMultiResource';
-export * from './ArrayResource';
-export * from './autoDetectResource';
-export * from './BufferResource';
-export * from './CanvasResource';
-export * from './CubeResource';
-export * from './ImageBitmapResource';
-export * from './ImageResource';
-export * from './SVGResource';
-export * from './VideoResource';
+export * from './AbstractMultiResource.ts';
+export * from './ArrayResource.ts';
+export * from './autoDetectResource.ts';
+export * from './BufferResource.ts';
+export * from './CanvasResource.ts';
+export * from './CubeResource.ts';
+export * from './ImageBitmapResource.ts';
+export * from './ImageResource.ts';
+export * from './SVGResource.ts';
+export * from './VideoResource.ts';

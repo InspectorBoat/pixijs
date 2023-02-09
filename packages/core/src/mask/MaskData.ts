@@ -1,8 +1,8 @@
-import { MASK_TYPES } from '@pixi/constants';
+import { MASK_TYPES } from 'pixi/constants.ts';
 import { Filter } from '../filters/Filter';
 
-import type { COLOR_MASK_BITS, MSAA_QUALITY } from '@pixi/constants';
-import type { Matrix, Rectangle } from '@pixi/math';
+import type { COLOR_MASK_BITS, MSAA_QUALITY } from 'pixi/constants.ts';
+import type { Matrix, Rectangle } from 'pixi/math.ts';
 import type { IFilterTarget } from '../filters/IFilterTarget';
 import type { ISpriteMaskFilter } from '../filters/spriteMask/SpriteMaskFilter';
 import type { Renderer } from '../Renderer';

@@ -1,7 +1,7 @@
-import { ShaderSystem, unsafeEvalSupported, utils } from '@pixi/core';
+import { ShaderSystem, unsafeEvalSupported, utils } from 'pixi/core.ts';
 import { syncUniforms } from './syncUniforms';
 
-import type { Program, UniformGroup } from '@pixi/core';
+import type { Program, UniformGroup } from 'pixi/core.ts';
 
 interface PIXICore
 {

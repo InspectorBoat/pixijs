@@ -1,5 +1,5 @@
-import { Graphics } from '@pixi/graphics';
-import '@pixi/graphics-extras';
+import { Graphics } from 'pixi/graphics.ts';
+import 'pixi/graphics-extras.ts';
 
 describe('Graphics', () =>
 {

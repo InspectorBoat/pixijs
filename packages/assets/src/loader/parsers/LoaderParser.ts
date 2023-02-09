@@ -1,4 +1,4 @@
-import type { ExtensionMetadata } from '@pixi/core';
+import type { ExtensionMetadata } from 'pixi/core.ts';
 import type { Loader } from '../Loader';
 import type { LoadAsset } from '../types';
 

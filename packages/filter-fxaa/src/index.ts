@@ -1,1 +1,1 @@
-export * from './FXAAFilter';
+export * from './FXAAFilter.ts';

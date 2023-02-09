@@ -1,4 +1,4 @@
-import { BufferResource, FORMATS, TYPES } from '@pixi/core';
+import { BufferResource, FORMATS, TYPES } from 'pixi/core.ts';
 import { INTERNAL_FORMAT_TO_BYTES_PER_PIXEL } from '../const';
 import { CompressedTextureResource } from '../resources';
 

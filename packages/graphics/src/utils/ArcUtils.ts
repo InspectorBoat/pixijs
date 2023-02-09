@@ -1,4 +1,4 @@
-import { PI_2 } from '@pixi/core';
+import { PI_2 } from 'pixi/core.ts';
 import { curves } from '../const';
 
 interface IArcLikeShape

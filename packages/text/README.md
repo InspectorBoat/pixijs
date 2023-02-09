@@ -9,5 +9,5 @@ npm install @pixi/text
 ## Usage
 
 ```js
-import * as text from '@pixi/text';
+import * as text from 'pixi/text.ts';
 ```

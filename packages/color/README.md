@@ -9,7 +9,7 @@ npm install @pixi/color
 ## Usage
 
 ```js
-import { Color } from '@pixi/color';
+import { Color } from 'pixi/color.ts';
 
 const color = new Color('red');
 ```

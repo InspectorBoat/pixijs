@@ -1,6 +1,6 @@
-import { Application } from '@pixi/app';
-import { extensions, ExtensionType } from '@pixi/core';
-import { Container } from '@pixi/display';
+import { Application } from 'pixi/app.ts';
+import { extensions, ExtensionType } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
 
 describe('Application', () =>
 {

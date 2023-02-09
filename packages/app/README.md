@@ -9,7 +9,7 @@ npm install @pixi/app
 ## Usage
 
 ```js
-import { Application } from '@pixi/app';
+import { Application } from 'pixi/app.ts';
 
 const app = new Application();
 document.body.appendChild(app.view);

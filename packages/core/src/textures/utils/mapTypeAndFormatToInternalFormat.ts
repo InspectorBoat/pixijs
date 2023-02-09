@@ -1,4 +1,4 @@
-import { FORMATS, TYPES } from '@pixi/constants';
+import { FORMATS, TYPES } from 'pixi/constants.ts';
 
 /**
  * Returns a lookup table that maps each type-format pair to a compatible internal format.

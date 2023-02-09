@@ -9,5 +9,5 @@ npm install @pixi/extract
 ## Usage
 
 ```js
-import '@pixi/extract';
+import 'pixi/extract.ts';
 ```

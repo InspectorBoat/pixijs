@@ -9,5 +9,5 @@ npm install @pixi/sprite-tiling
 ## Usage
 
 ```js
-import '@pixi/sprite-tiling';
+import 'pixi/sprite-tiling.ts';
 ```

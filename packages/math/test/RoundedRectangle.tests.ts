@@ -1,4 +1,4 @@
-import { RoundedRectangle } from '@pixi/math';
+import { RoundedRectangle } from 'pixi/math.ts';
 
 describe('RoundedRectangle', () =>
 {

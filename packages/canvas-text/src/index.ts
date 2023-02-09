@@ -1,1 +1,1 @@
-import './Text';
+import './Text.ts';

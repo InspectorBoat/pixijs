@@ -1,4 +1,4 @@
-import { settings } from '@pixi/core';
+import { settings } from 'pixi/core.ts';
 import { XMLFormat } from './XMLFormat';
 
 import type { BitmapFontData } from '../BitmapFontData';

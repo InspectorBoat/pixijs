@@ -1,8 +1,8 @@
-import { Renderer, settings } from '@pixi/core';
-import { Sprite } from '@pixi/sprite';
-import { Text } from '@pixi/text';
+import { Renderer, settings } from 'pixi/core.ts';
+import { Sprite } from 'pixi/sprite.ts';
+import { Text } from 'pixi/text.ts';
 
-import type { IDestroyOptions } from '@pixi/display';
+import type { IDestroyOptions } from 'pixi/display.ts';
 
 describe('Text', () =>
 {

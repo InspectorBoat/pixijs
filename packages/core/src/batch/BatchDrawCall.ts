@@ -1,6 +1,6 @@
-import { DRAW_MODES } from '@pixi/constants';
+import { DRAW_MODES } from 'pixi/constants.ts';
 
-import type { BLEND_MODES } from '@pixi/constants';
+import type { BLEND_MODES } from 'pixi/constants.ts';
 import type { BatchTextureArray } from './BatchTextureArray';
 
 /**

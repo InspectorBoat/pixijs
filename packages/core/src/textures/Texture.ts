@@ -1,11 +1,11 @@
-import { Point, Rectangle } from '@pixi/math';
-import { settings } from '@pixi/settings';
-import { EventEmitter, getResolutionOfUrl, TextureCache, uid } from '@pixi/utils';
+import { Point, Rectangle } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
+import { EventEmitter, getResolutionOfUrl, TextureCache, uid } from 'pixi/utils.ts';
 import { BaseTexture } from './BaseTexture';
 import { ImageResource } from './resources/ImageResource';
 import { TextureUvs } from './TextureUvs';
 
-import type { IPointData, ISize } from '@pixi/math';
+import type { IPointData, ISize } from 'pixi/math.ts';
 import type { IBaseTextureOptions, ImageSource } from './BaseTexture';
 import type { BufferResource } from './resources/BufferResource';
 import type { CanvasResource } from './resources/CanvasResource';

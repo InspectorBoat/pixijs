@@ -1,4 +1,4 @@
-import { Point, Polygon } from '@pixi/math';
+import { Point, Polygon } from 'pixi/math.ts';
 
 describe('Polygon', () =>
 {

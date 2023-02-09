@@ -1,6 +1,6 @@
-import { Texture } from '@pixi/core';
+import { Texture } from 'pixi/core.ts';
 
-import type { Matrix } from '@pixi/core';
+import type { Matrix } from 'pixi/core.ts';
 
 /**
  * Fill style object for Graphics.

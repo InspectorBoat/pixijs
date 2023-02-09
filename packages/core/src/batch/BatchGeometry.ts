@@ -1,4 +1,4 @@
-import { TYPES } from '@pixi/constants';
+import { TYPES } from 'pixi/constants.ts';
 import { Buffer } from '../geometry/Buffer';
 import { Geometry } from '../geometry/Geometry';
 

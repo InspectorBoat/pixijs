@@ -1,10 +1,10 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 import { generateUniformsSync, unsafeEvalSupported } from './utils';
 import { generateProgram } from './utils/generateProgram';
 import { generateUniformBufferSync } from './utils/generateUniformBufferSync';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Dict } from '@pixi/utils';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Dict } from 'pixi/utils.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';

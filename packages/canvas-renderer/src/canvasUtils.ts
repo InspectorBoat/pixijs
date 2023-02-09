@@ -1,7 +1,7 @@
-import { Color, settings } from '@pixi/core';
+import { Color, settings } from 'pixi/core.ts';
 import { canUseNewCanvasBlendModes } from './utils/canUseNewCanvasBlendModes';
 
-import type { ICanvas, Texture } from '@pixi/core';
+import type { ICanvas, Texture } from 'pixi/core.ts';
 
 /**
  * Utility methods for Sprite/Texture tinting.

@@ -1,6 +1,6 @@
-import { Rectangle, Renderer, RenderTexture, Texture } from '@pixi/core';
-import { Extract } from '@pixi/extract';
-import { Sprite } from '@pixi/sprite';
+import { Rectangle, Renderer, RenderTexture, Texture } from 'pixi/core.ts';
+import { Extract } from 'pixi/extract.ts';
+import { Sprite } from 'pixi/sprite.ts';
 
 describe('Extract', () =>
 {

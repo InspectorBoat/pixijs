@@ -1,4 +1,4 @@
-import { MSAA_QUALITY } from '@pixi/constants';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
 
 import type { Framebuffer } from './Framebuffer';
 

@@ -1,7 +1,7 @@
 /// <reference path="../global.d.ts" />
-import { BaseTexture, Matrix, RenderTexture, settings, Texture, utils } from '@pixi/core';
-import { DisplayObject } from '@pixi/display';
-import { Sprite } from '@pixi/sprite';
+import { BaseTexture, Matrix, RenderTexture, settings, Texture, utils } from 'pixi/core.ts';
+import { DisplayObject } from 'pixi/display.ts';
+import { Sprite } from 'pixi/sprite.ts';
 
 import type {
     ICanvasRenderingContext2D,
@@ -11,8 +11,8 @@ import type {
     MSAA_QUALITY,
     Rectangle,
     Renderer,
-} from '@pixi/core';
-import type { Container, IDestroyOptions } from '@pixi/display';
+} from 'pixi/core.ts';
+import type { Container, IDestroyOptions } from 'pixi/display.ts';
 
 // Don't import CanvasRender to remove dependency on this optional package
 // this type should satisify these requirements for cacheAsBitmap types

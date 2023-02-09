@@ -1,4 +1,4 @@
-import type { DisplayObject } from '@pixi/display';
+import type { DisplayObject } from 'pixi/display.ts';
 
 export type PointerEvents = 'auto'
 | 'none'

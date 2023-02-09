@@ -1,10 +1,10 @@
-import { BaseTexture, Texture, Ticker, UPDATE_PRIORITY } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Text, TextMetrics, TextStyle } from '@pixi/text';
+import { BaseTexture, Texture, Ticker, UPDATE_PRIORITY } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Text, TextMetrics, TextStyle } from 'pixi/text.ts';
 import { CountLimiter } from './CountLimiter';
 
-import type { IRenderer } from '@pixi/core';
-import type { DisplayObject } from '@pixi/display';
+import type { IRenderer } from 'pixi/core.ts';
+import type { DisplayObject } from 'pixi/display.ts';
 
 interface IArrowFunction
 {

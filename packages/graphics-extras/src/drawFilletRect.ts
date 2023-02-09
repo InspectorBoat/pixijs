@@ -1,4 +1,4 @@
-import type { Graphics } from '@pixi/graphics';
+import type { Graphics } from 'pixi/graphics.ts';
 
 /**
  * Draw Rectangle with fillet corners. This is much like rounded rectangle

@@ -4,7 +4,7 @@ import {
     extensions,
     ExtensionType,
     utils,
-} from '@pixi/core';
+} from 'pixi/core.ts';
 
 import type {
     BaseRenderTexture,
@@ -14,7 +14,7 @@ import type {
     ISystem,
     Matrix,
     RenderTexture,
-} from '@pixi/core';
+} from 'pixi/core.ts';
 import type { CrossPlatformCanvasRenderingContext2D } from './CanvasContextSystem';
 import type { CanvasRenderer } from './CanvasRenderer';
 

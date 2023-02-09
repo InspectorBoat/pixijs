@@ -1,11 +1,11 @@
-import { Renderer } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { EventSystem } from '@pixi/events';
-import { Graphics } from '@pixi/graphics';
+import { Renderer } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { EventSystem } from 'pixi/events.ts';
+import { Graphics } from 'pixi/graphics.ts';
 // eslint-disable-next-line @typescript-eslint/no-duplicate-imports
-import '@pixi/events';
+import 'pixi/events.ts';
 
-import type { IRendererOptions } from '@pixi/core';
+import type { IRendererOptions } from 'pixi/core.ts';
 
 function createRenderer(
     view?: HTMLCanvasElement,

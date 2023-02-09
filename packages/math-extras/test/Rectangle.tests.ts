@@ -1,5 +1,5 @@
-import { Rectangle } from '@pixi/core';
-import '@pixi/math-extras';
+import { Rectangle } from 'pixi/core.ts';
+import 'pixi/math-extras.ts';
 
 describe('Rectangle', () =>
 {

@@ -1,7 +1,7 @@
-import { GC_MODES } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { GC_MODES } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { RenderTexture } from '../renderTexture/RenderTexture';
 import type { ISystem } from '../system/ISystem';

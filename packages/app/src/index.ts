@@ -1,4 +1,4 @@
 /// <reference path="../global.d.ts" />
-export * from './Application';
-export * from './ResizePlugin';
+export * from './Application.ts';
+export * from './ResizePlugin.ts';
 

@@ -1,9 +1,9 @@
-import { canvasUtils } from '@pixi/canvas-renderer';
-import { DRAW_MODES, extensions, ExtensionType, Texture } from '@pixi/core';
+import { canvasUtils } from 'pixi/canvas-renderer';
+import { DRAW_MODES, extensions, ExtensionType, Texture } from 'pixi/core.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
-import type { ExtensionMetadata } from '@pixi/core';
-import type { Mesh } from '@pixi/mesh';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
+import type { ExtensionMetadata } from 'pixi/core.ts';
+import type { Mesh } from 'pixi/mesh.ts';
 
 /**
  * Renderer dedicated to meshes.

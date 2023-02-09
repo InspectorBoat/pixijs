@@ -9,5 +9,5 @@ npm install @pixi/spritesheet
 ## Usage
 
 ```js
-import '@pixi/spritesheet';
+import 'pixi/spritesheet.ts';
 ```

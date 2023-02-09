@@ -1,2 +1,2 @@
-export * from './BlobResource';
-export * from './CompressedTextureResource';
+export * from './BlobResource.ts';
+export * from './CompressedTextureResource.ts';

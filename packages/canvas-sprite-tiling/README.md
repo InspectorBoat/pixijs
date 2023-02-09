@@ -9,5 +9,5 @@ npm install @pixi/canvas-sprite-tiling
 ## Usage
 
 ```js
-import '@pixi/canvas-sprite-tiling';
+import 'pixi/canvas-sprite-tiling.ts';
 ```

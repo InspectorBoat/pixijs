@@ -1,4 +1,4 @@
-import type { Dict } from '@pixi/utils';
+import type { Dict } from 'pixi/utils.ts';
 
 /**
  * @private

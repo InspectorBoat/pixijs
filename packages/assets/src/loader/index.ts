@@ -1,3 +1,3 @@
 export type { Loader } from './Loader';
-export * from './parsers';
-export * from './types';
+export * from './parsers.ts';
+export * from './types.ts';

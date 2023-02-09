@@ -1,5 +1,5 @@
-import { settings } from '@pixi/settings';
-import { deprecation } from '@pixi/utils';
+import { settings } from 'pixi/settings.ts';
+import { deprecation } from 'pixi/utils.ts';
 import { Ticker } from './Ticker';
 
 Object.defineProperties(settings, {

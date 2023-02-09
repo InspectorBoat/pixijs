@@ -1,6 +1,6 @@
-import { Buffer, Geometry, TYPES, utils } from '@pixi/core';
+import { Buffer, Geometry, TYPES, utils } from 'pixi/core.ts';
 
-import type { Sprite } from '@pixi/sprite';
+import type { Sprite } from 'pixi/sprite.ts';
 import type { IParticleRendererProperty } from './ParticleRenderer';
 
 /*

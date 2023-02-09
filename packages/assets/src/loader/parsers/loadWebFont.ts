@@ -1,4 +1,4 @@
-import { extensions, ExtensionType, settings, utils } from '@pixi/core';
+import { extensions, ExtensionType, settings, utils } from 'pixi/core.ts';
 import { checkDataUrl } from '../../utils/checkDataUrl';
 import { checkExtension } from '../../utils/checkExtension';
 import { LoaderParserPriority } from './LoaderParser';

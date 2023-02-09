@@ -1,2 +1,2 @@
-export * from './ParticleContainer';
-export * from './ParticleRenderer';
+export * from './ParticleContainer.ts';
+export * from './ParticleRenderer.ts';

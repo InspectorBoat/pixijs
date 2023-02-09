@@ -1,4 +1,4 @@
-import { Ellipse } from '@pixi/math';
+import { Ellipse } from 'pixi/math.ts';
 
 describe('Ellipse', () =>
 {

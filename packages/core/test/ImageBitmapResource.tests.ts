@@ -1,6 +1,6 @@
-import { ImageBitmapResource } from '@pixi/core';
+import { ImageBitmapResource } from 'pixi/core.ts';
 
-import type { BaseTexture } from '@pixi/core';
+import type { BaseTexture } from 'pixi/core.ts';
 
 describe('ImageBitmapResource', () =>
 {

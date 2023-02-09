@@ -1,5 +1,5 @@
 import path from 'path';
-import { VideoResource } from '@pixi/core';
+import { VideoResource } from 'pixi/core.ts';
 
 describe('VideoResource', () =>
 {

@@ -15,7 +15,7 @@
  * @namespace PIXI.utils
  */
 
-import './settings';
+import './settings.ts';
 
 /**
  * A simple JS library that detects mobile devices.
@@ -44,7 +44,7 @@ import './settings';
  * @property {boolean} windows.tablet - `true` if any Windows tablet
  * @property {boolean} windows.phone - `true` if any Windows phone
  */
-export { isMobile } from '@pixi/settings';
+export { isMobile } from 'pixi/settings.ts';
 
 /**
  * A high performance event emitter
@@ -73,7 +73,7 @@ export { default as earcut } from 'earcut';
  * @name url
  * @member {object}
  */
-export * from './url';
+export * from './url.ts';
 
 /**
  * Browser and Node.js compatible path utilities.
@@ -82,28 +82,28 @@ export * from './url';
  * @name path
  * @member {object}
  */
-export * from './path';
+export * from './path.ts';
 
 // Other exports
-export * from './browser/hello';
-export * from './browser/isWebGLSupported';
-export * from './color/hex';
-export * from './color/premultiply';
-export * from './const';
-export * from './data/createIndicesForQuads';
-export * from './data/getBufferType';
-export * from './data/interleaveTypedArrays';
-export * from './data/pow2';
-export * from './data/removeItems';
-export * from './data/sign';
-export * from './data/uid';
-export * from './logging/deprecation';
-export * from './media/BoundingBox';
-export * from './media/caches';
-export * from './media/CanvasRenderTarget';
-export * from './media/getCanvasBoundingBox';
-export * from './media/trimCanvas';
-export * from './network/decomposeDataUri';
-export * from './network/determineCrossOrigin';
-export * from './network/getResolutionOfUrl';
-export * from './types';
+export * from './browser/hello.ts';
+export * from './browser/isWebGLSupported.ts';
+export * from './color/hex.ts';
+export * from './color/premultiply.ts';
+export * from './const.ts';
+export * from './data/createIndicesForQuads.ts';
+export * from './data/getBufferType.ts';
+export * from './data/interleaveTypedArrays.ts';
+export * from './data/pow2.ts';
+export * from './data/removeItems.ts';
+export * from './data/sign.ts';
+export * from './data/uid.ts';
+export * from './logging/deprecation.ts';
+export * from './media/BoundingBox.ts';
+export * from './media/caches.ts';
+export * from './media/CanvasRenderTarget.ts';
+export * from './media/getCanvasBoundingBox.ts';
+export * from './media/trimCanvas.ts';
+export * from './network/decomposeDataUri.ts';
+export * from './network/determineCrossOrigin.ts';
+export * from './network/getResolutionOfUrl.ts';
+export * from './types.ts';

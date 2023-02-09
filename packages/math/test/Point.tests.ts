@@ -1,4 +1,4 @@
-import { Point } from '@pixi/math';
+import { Point } from 'pixi/math.ts';
 
 describe('Point', () =>
 {

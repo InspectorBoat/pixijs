@@ -1,4 +1,4 @@
-import type { Rectangle } from '@pixi/core';
+import type { Rectangle } from 'pixi/core.ts';
 import type { IShapeBuildCommand } from './IShapeBuildCommand';
 
 /**

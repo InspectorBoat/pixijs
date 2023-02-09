@@ -1,4 +1,4 @@
-import { extensions, ExtensionType, settings } from '@pixi/core';
+import { extensions, ExtensionType, settings } from 'pixi/core.ts';
 import { loadTextures } from '../../loader';
 
 import type { ResolveAsset, ResolveURLParser } from '../types';

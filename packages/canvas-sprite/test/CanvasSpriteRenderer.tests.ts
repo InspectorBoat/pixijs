@@ -1,9 +1,9 @@
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { BaseTexture, CanvasResource, MIPMAP_MODES, Rectangle, SCALE_MODES, Texture } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Sprite } from '@pixi/sprite';
-import '@pixi/canvas-display';
-import '@pixi/canvas-sprite';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { BaseTexture, CanvasResource, MIPMAP_MODES, Rectangle, SCALE_MODES, Texture } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Sprite } from 'pixi/sprite.ts';
+import 'pixi/canvas-display.ts';
+import 'pixi/canvas-sprite.ts';
 
 describe('CanvasSpriteRenderer', () =>
 {

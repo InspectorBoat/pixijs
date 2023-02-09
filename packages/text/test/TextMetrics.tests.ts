@@ -1,6 +1,6 @@
-import { TextMetrics, TextStyle } from '@pixi/text';
+import { TextMetrics, TextStyle } from 'pixi/text.ts';
 
-import type { ITextStyle } from '@pixi/text';
+import type { ITextStyle } from 'pixi/text.ts';
 
 /**
  * Fonts render slightly differently between platforms so tests that depend on a specific

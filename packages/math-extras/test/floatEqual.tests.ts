@@ -1,4 +1,4 @@
-import { floatEqual } from '@pixi/math-extras';
+import { floatEqual } from 'pixi/math-extras';
 
 describe('floatEqual', () =>
 {

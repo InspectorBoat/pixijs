@@ -1,7 +1,7 @@
-import { BLEND_MODES } from '@pixi/constants';
-import { BaseTexture, BatchRenderer, CanvasResource, Renderer, Texture } from '@pixi/core';
+import { BLEND_MODES } from 'pixi/constants.ts';
+import { BaseTexture, BatchRenderer, CanvasResource, Renderer, Texture } from 'pixi/core.ts';
 
-import type { IBatchableElement } from '@pixi/core';
+import type { IBatchableElement } from 'pixi/core.ts';
 
 describe('BatchRenderer', () =>
 {

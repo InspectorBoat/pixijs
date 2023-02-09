@@ -1,5 +1,5 @@
-import { settings } from '@pixi/settings';
-import '@pixi/core';
+import { settings } from 'pixi/settings.ts';
+import 'pixi/core.ts';
 
 describe('settings', () =>
 {

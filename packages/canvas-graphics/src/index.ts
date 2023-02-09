@@ -1,4 +1,4 @@
 /// <reference path="../global.d.ts" />
-import './Graphics';
+import './Graphics.ts';
 
-export * from './CanvasGraphicsRenderer';
+export * from './CanvasGraphicsRenderer.ts';

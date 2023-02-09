@@ -1,7 +1,7 @@
-import { Rectangle, Renderer } from '@pixi/core';
-import { Container, DisplayObject } from '@pixi/display';
-import { AlphaFilter } from '@pixi/filter-alpha';
-import { Graphics } from '@pixi/graphics';
+import { Rectangle, Renderer } from 'pixi/core.ts';
+import { Container, DisplayObject } from 'pixi/display.ts';
+import { AlphaFilter } from 'pixi/filter-alpha';
+import { Graphics } from 'pixi/graphics.ts';
 
 function testAddChild(fn: any)
 {

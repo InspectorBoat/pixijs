@@ -1,4 +1,4 @@
-import { path } from '@pixi/utils';
+import { path } from 'pixi/utils.ts';
 
 describe('Paths', () =>
 {

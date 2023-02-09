@@ -2,7 +2,7 @@ import { BaseTexture } from '../BaseTexture';
 import { autoDetectResource } from './autoDetectResource';
 import { Resource } from './Resource';
 
-import type { ISize } from '@pixi/math';
+import type { ISize } from 'pixi/math.ts';
 import type { IAutoDetectOptions } from './autoDetectResource';
 
 /**

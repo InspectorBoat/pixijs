@@ -9,5 +9,5 @@ npm install @pixi/filter-color-matrix
 ## Usage
 
 ```js
-import '@pixi/filter-color-matrix';
+import 'pixi/filter-color-matrix.ts';
 ```

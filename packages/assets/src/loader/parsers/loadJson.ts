@@ -1,4 +1,4 @@
-import { extensions, ExtensionType, settings, utils } from '@pixi/core';
+import { extensions, ExtensionType, settings, utils } from 'pixi/core.ts';
 import { LoaderParserPriority } from './LoaderParser';
 
 import type { LoaderParser } from './LoaderParser';

@@ -1,4 +1,4 @@
-import { BaseTexture, Texture } from '@pixi/core';
+import { BaseTexture, Texture } from 'pixi/core.ts';
 import { convertToList } from '../utils';
 
 import type { CacheParser } from './CacheParser';

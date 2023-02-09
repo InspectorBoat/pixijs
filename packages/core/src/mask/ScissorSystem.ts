@@ -1,9 +1,9 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Matrix, Rectangle } from '@pixi/math';
-import { settings } from '@pixi/settings';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Matrix, Rectangle } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
 import { AbstractMaskSystem } from './AbstractMaskSystem';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { MaskData } from './MaskData';
 

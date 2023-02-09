@@ -1,4 +1,4 @@
-import { extensions, ExtensionType, Texture } from '@pixi/core';
+import { extensions, ExtensionType, Texture } from 'pixi/core.ts';
 
 import type { CacheParser } from '../CacheParser';
 

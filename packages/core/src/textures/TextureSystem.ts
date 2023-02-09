@@ -1,11 +1,11 @@
-import { MIPMAP_MODES, SAMPLER_TYPES, SCALE_MODES, TYPES, WRAP_MODES } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { removeItems } from '@pixi/utils';
+import { MIPMAP_MODES, SAMPLER_TYPES, SCALE_MODES, TYPES, WRAP_MODES } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { removeItems } from 'pixi/utils.ts';
 import { BaseTexture } from './BaseTexture';
 import { GLTexture } from './GLTexture';
 import { mapTypeAndFormatToInternalFormat } from './utils/mapTypeAndFormatToInternalFormat';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';

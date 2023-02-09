@@ -1,4 +1,4 @@
-import { resolveTextureUrl } from '@pixi/assets';
+import { resolveTextureUrl } from 'pixi/assets.ts';
 import { Resolver } from '../src/resolver/Resolver';
 import { manifest } from './sampleManifest';
 

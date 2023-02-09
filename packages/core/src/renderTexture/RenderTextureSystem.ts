@@ -1,11 +1,11 @@
-import { Color } from '@pixi/color';
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Rectangle } from '@pixi/math';
+import { Color } from 'pixi/color.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Rectangle } from 'pixi/math.ts';
 
-import type { ColorSource } from '@pixi/color';
-import type { BUFFER_BITS } from '@pixi/constants';
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { ISize } from '@pixi/math';
+import type { ColorSource } from 'pixi/color.ts';
+import type { BUFFER_BITS } from 'pixi/constants.ts';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { ISize } from 'pixi/math.ts';
 import type { MaskData } from '../mask/MaskData';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';

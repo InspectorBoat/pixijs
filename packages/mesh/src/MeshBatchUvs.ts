@@ -1,4 +1,4 @@
-import type { Buffer, TextureMatrix } from '@pixi/core';
+import type { Buffer, TextureMatrix } from 'pixi/core.ts';
 
 /**
  * Class controls cache for UV mapping from Texture normal space to BaseTexture normal space.

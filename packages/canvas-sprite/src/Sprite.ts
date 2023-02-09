@@ -1,6 +1,6 @@
-import { Sprite } from '@pixi/sprite';
+import { Sprite } from 'pixi/sprite.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Cached tinted texture.

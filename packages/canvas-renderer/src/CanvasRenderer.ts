@@ -4,7 +4,7 @@ import {
     settings,
     SystemManager,
     utils,
-} from '@pixi/core';
+} from 'pixi/core.ts';
 
 import type {
     BackgroundSystem,
@@ -28,8 +28,8 @@ import type {
     StartupOptions,
     StartupSystem,
     ViewSystem
-} from '@pixi/core';
-import type { DisplayObject } from '@pixi/display';
+} from 'pixi/core.ts';
+import type { DisplayObject } from 'pixi/display.ts';
 import type { CanvasContextSystem, SmoothingEnabledProperties } from './CanvasContextSystem';
 import type { CanvasMaskSystem } from './CanvasMaskSystem';
 import type { CanvasObjectRendererSystem } from './CanvasObjectRendererSystem';

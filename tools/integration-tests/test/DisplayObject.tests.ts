@@ -1,7 +1,7 @@
-import { DisplayObject } from '@pixi/display';
-import { MaskData } from '@pixi/core';
+import { DisplayObject } from 'pixi/display.ts';
+import { MaskData } from 'pixi/core.ts';
 
-import '@pixi/canvas-display';
+import 'pixi/canvas-display.ts';
 
 describe('DisplayObject', () =>
 {

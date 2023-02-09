@@ -12,5 +12,5 @@ npm install @pixi/events
 ## Usage
 
 ```js
-import '@pixi/events';
+import 'pixi/events.ts';
 ```

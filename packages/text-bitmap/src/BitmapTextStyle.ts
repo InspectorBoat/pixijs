@@ -1,4 +1,4 @@
-import type { TextStyleAlign } from '@pixi/text';
+import type { TextStyleAlign } from 'pixi/text.ts';
 
 export interface IBitmapTextStyle
 {

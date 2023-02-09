@@ -1,9 +1,9 @@
-import { BLEND_MODES } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { BLEND_MODES } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 import { State } from './State';
 import { mapWebGLBlendModesToPixi } from './utils/mapWebGLBlendModesToPixi';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { ISystem } from '../system/ISystem';
 

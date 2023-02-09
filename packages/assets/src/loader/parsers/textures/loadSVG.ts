@@ -1,9 +1,9 @@
-import { BaseTexture, extensions, ExtensionType, settings, SVGResource, utils } from '@pixi/core';
+import { BaseTexture, extensions, ExtensionType, settings, SVGResource, utils } from 'pixi/core.ts';
 import { LoaderParserPriority } from '../LoaderParser';
 import { loadTextures } from './loadTextures';
 import { createTexture } from './utils/createTexture';
 
-import type { IBaseTextureOptions, Texture } from '@pixi/core';
+import type { IBaseTextureOptions, Texture } from 'pixi/core.ts';
 import type { Loader } from '../../Loader';
 import type { LoadAsset } from '../../types';
 import type { LoaderParser } from '../LoaderParser';

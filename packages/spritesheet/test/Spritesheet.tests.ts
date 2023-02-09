@@ -1,9 +1,9 @@
 import path from 'path';
-import { BaseTexture, Texture } from '@pixi/core';
-import { Spritesheet } from '@pixi/spritesheet';
+import { BaseTexture, Texture } from 'pixi/core.ts';
+import { Spritesheet } from 'pixi/spritesheet.ts';
 
-import type { ImageResource } from '@pixi/core';
-import type { ISpritesheetData, ISpritesheetFrameData } from '@pixi/spritesheet';
+import type { ImageResource } from 'pixi/core.ts';
+import type { ISpritesheetData, ISpritesheetFrameData } from 'pixi/spritesheet.ts';
 
 describe('Spritesheet', () =>
 {

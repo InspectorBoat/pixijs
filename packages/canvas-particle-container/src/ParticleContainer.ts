@@ -1,6 +1,6 @@
-import { ParticleContainer } from '@pixi/particle-container';
+import { ParticleContainer } from 'pixi/particle-container';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Renders the object using the Canvas renderer

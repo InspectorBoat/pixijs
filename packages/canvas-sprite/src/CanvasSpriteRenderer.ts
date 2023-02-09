@@ -1,9 +1,9 @@
-import { canvasUtils } from '@pixi/canvas-renderer';
-import { BLEND_MODES, extensions, ExtensionType, groupD8, Matrix, SCALE_MODES } from '@pixi/core';
+import { canvasUtils } from 'pixi/canvas-renderer';
+import { BLEND_MODES, extensions, ExtensionType, groupD8, Matrix, SCALE_MODES } from 'pixi/core.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
-import type { ExtensionMetadata } from '@pixi/core';
-import type { Sprite } from '@pixi/sprite';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
+import type { ExtensionMetadata } from 'pixi/core.ts';
+import type { Sprite } from 'pixi/sprite.ts';
 
 const canvasRenderWorldTransform = new Matrix();
 

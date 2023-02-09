@@ -1,9 +1,9 @@
-import { BLEND_MODES, Color } from '@pixi/core';
-import { Container } from '@pixi/display';
+import { BLEND_MODES, Color } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
 
-import type { BaseTexture, Renderer } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
-import type { Sprite } from '@pixi/sprite';
+import type { BaseTexture, Renderer } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
+import type { Sprite } from 'pixi/sprite.ts';
 import type { ParticleBuffer } from './ParticleBuffer';
 
 export interface IParticleProperties

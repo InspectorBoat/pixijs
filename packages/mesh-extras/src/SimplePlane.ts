@@ -1,9 +1,9 @@
-import { Texture } from '@pixi/core';
-import { Mesh, MeshMaterial } from '@pixi/mesh';
+import { Texture } from 'pixi/core.ts';
+import { Mesh, MeshMaterial } from 'pixi/mesh.ts';
 import { PlaneGeometry } from './geometry/PlaneGeometry';
 
-import type{ Renderer } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
+import type{ Renderer } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
 
 /**
  * The SimplePlane allows you to draw a texture across several points and then manipulate these points

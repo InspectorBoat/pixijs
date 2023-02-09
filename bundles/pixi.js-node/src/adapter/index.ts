@@ -1,4 +1,4 @@
-import './polyfills';
+import './polyfills.ts';
 
 export * from './adapter';
 export * from './loadNodeBase64';

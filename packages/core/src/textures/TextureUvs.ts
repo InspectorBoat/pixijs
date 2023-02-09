@@ -1,6 +1,6 @@
-import { groupD8 } from '@pixi/math';
+import { groupD8 } from 'pixi/math.ts';
 
-import type { ISize, Rectangle } from '@pixi/math';
+import type { ISize, Rectangle } from 'pixi/math.ts';
 
 /**
  * Stores a texture's frame in UV coordinates, in

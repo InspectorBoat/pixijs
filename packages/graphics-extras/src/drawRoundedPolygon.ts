@@ -1,4 +1,4 @@
-import type { Graphics } from '@pixi/graphics';
+import type { Graphics } from 'pixi/graphics.ts';
 
 /**
  * Draw a regular polygon with rounded corners.

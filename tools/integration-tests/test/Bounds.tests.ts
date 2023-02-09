@@ -1,8 +1,8 @@
-import { BaseRenderTexture, Rectangle, RenderTexture, Texture } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Sprite } from '@pixi/sprite';
-import { Graphics } from '@pixi/graphics';
-import { Text } from '@pixi/text';
+import { BaseRenderTexture, Rectangle, RenderTexture, Texture } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Sprite } from 'pixi/sprite.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import { Text } from 'pixi/text.ts';
 
 describe('getBounds', () =>
 {

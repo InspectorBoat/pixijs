@@ -9,5 +9,5 @@ npm install @pixi/filter-alpha
 ## Usage
 
 ```js
-import '@pixi/filter-alpha';
+import 'pixi/filter-alpha.ts';
 ```

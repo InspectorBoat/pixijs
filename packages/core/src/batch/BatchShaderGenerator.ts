@@ -1,4 +1,4 @@
-import { Matrix } from '@pixi/math';
+import { Matrix } from 'pixi/math.ts';
 import { Program } from '../shader/Program';
 import { Shader } from '../shader/Shader';
 import { UniformGroup } from '../shader/UniformGroup';

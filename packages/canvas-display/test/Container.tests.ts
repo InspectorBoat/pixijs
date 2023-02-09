@@ -1,5 +1,5 @@
-import { Container } from '@pixi/display';
-import '@pixi/canvas-display';
+import { Container } from 'pixi/display.ts';
+import 'pixi/canvas-display.ts';
 
 describe('Container', () =>
 {

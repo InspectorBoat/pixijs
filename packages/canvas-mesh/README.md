@@ -9,5 +9,5 @@ npm install @pixi/canvas-mesh
 ## Usage
 
 ```js
-import '@pixi/canvas-mesh';
+import 'pixi/canvas-mesh.ts';
 ```

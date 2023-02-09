@@ -1,9 +1,9 @@
-import { DisplayObject } from '@pixi/display';
-import { deprecation } from '@pixi/utils';
+import { DisplayObject } from 'pixi/display.ts';
+import { deprecation } from 'pixi/utils.ts';
 import { EventSystem } from './EventSystem';
 import { FederatedEvent } from './FederatedEvent';
 
-import type { utils } from '@pixi/core';
+import type { utils } from 'pixi/core.ts';
 import type { AllFederatedEventMap } from './FederatedEventMap';
 import type { FederatedPointerEvent } from './FederatedPointerEvent';
 import type { FederatedWheelEvent } from './FederatedWheelEvent';

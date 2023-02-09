@@ -9,5 +9,5 @@ npm install @pixi/canvas-display
 ## Usage
 
 ```js
-import '@pixi/canvas-display';
+import 'pixi/canvas-display.ts';
 ```

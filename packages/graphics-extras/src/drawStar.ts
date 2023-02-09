@@ -1,6 +1,6 @@
-import { PI_2, Polygon } from '@pixi/core';
+import { PI_2, Polygon } from 'pixi/core.ts';
 
-import type { Graphics } from '@pixi/graphics';
+import type { Graphics } from 'pixi/graphics.ts';
 
 /**
  * Draw a star shape with an arbitrary number of points.

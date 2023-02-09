@@ -1,4 +1,4 @@
-import { Ticker, UPDATE_PRIORITY } from '@pixi/ticker';
+import { Ticker, UPDATE_PRIORITY } from 'pixi/ticker.ts';
 
 const { shared, system } = Ticker;
 

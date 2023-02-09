@@ -1,3 +1,3 @@
-export * from './Cache';
-export * from './CacheParser';
-export * from './parsers';
+export * from './Cache.ts';
+export * from './CacheParser.ts';
+export * from './parsers.ts';

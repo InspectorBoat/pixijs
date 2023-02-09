@@ -1,13 +1,13 @@
-import { CLEAR_MODES, DRAW_MODES, MSAA_QUALITY } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Matrix, Point, Rectangle } from '@pixi/math';
+import { CLEAR_MODES, DRAW_MODES, MSAA_QUALITY } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Matrix, Point, Rectangle } from 'pixi/math.ts';
 import { RenderTexturePool } from '../renderTexture/RenderTexturePool';
 import { UniformGroup } from '../shader/UniformGroup';
 import { Quad } from '../utils/Quad';
 import { QuadUv } from '../utils/QuadUv';
 import { FilterState } from './FilterState';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { RenderTexture } from '../renderTexture/RenderTexture';
 import type { ISystem } from '../system/ISystem';

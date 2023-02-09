@@ -1,9 +1,9 @@
-import { ENV, MSAA_QUALITY } from '@pixi/constants';
-import { Framebuffer, Renderer } from '@pixi/core';
-import { Graphics } from '@pixi/graphics';
-import { settings } from '@pixi/settings';
+import { ENV, MSAA_QUALITY } from 'pixi/constants.ts';
+import { Framebuffer, Renderer } from 'pixi/core.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import { settings } from 'pixi/settings.ts';
 
-import type { ObjectRenderer } from '@pixi/core';
+import type { ObjectRenderer } from 'pixi/core.ts';
 
 describe('Renderer', () =>
 {

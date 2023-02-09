@@ -1,4 +1,4 @@
-import { Buffer, Geometry, Program, Renderer, Shader, Texture } from '@pixi/core';
+import { Buffer, Geometry, Program, Renderer, Shader, Texture } from 'pixi/core.ts';
 
 const vert = `
 attribute vec2 aVertexPosition;

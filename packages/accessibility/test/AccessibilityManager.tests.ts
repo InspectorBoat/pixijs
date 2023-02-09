@@ -1,7 +1,7 @@
-import { AccessibilityManager } from '@pixi/accessibility';
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { Renderer, utils } from '@pixi/core';
-import { Container, DisplayObject } from '@pixi/display';
+import { AccessibilityManager } from 'pixi/accessibility.ts';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { Renderer, utils } from 'pixi/core.ts';
+import { Container, DisplayObject } from 'pixi/display.ts';
 
 describe('AccessibilityManager', () =>
 {

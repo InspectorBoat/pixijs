@@ -1,8 +1,8 @@
-import { FORMATS, MSAA_QUALITY, TYPES } from '@pixi/constants';
-import { autoDetectRenderer, Framebuffer, Renderer, RenderTexture } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { AlphaFilter } from '@pixi/filter-alpha';
-import { Graphics } from '@pixi/graphics';
+import { FORMATS, MSAA_QUALITY, TYPES } from 'pixi/constants.ts';
+import { autoDetectRenderer, Framebuffer, Renderer, RenderTexture } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { AlphaFilter } from 'pixi/filter-alpha';
+import { Graphics } from 'pixi/graphics.ts';
 
 function hasColorBufferFloat()
 {

@@ -1,4 +1,4 @@
-import { Ticker, UPDATE_PRIORITY } from '@pixi/core';
+import { Ticker, UPDATE_PRIORITY } from 'pixi/core.ts';
 
 import type { EventSystem } from './EventSystem';
 

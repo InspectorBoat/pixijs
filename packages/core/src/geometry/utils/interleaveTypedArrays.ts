@@ -1,6 +1,6 @@
-import { getBufferType } from '@pixi/utils';
+import { getBufferType } from 'pixi/utils.ts';
 
-import type { Dict } from '@pixi/utils';
+import type { Dict } from 'pixi/utils.ts';
 import type { ITypedArray } from '../Buffer';
 
 /* eslint-disable object-shorthand */

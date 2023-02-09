@@ -1,6 +1,6 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { BackgroundOptions } from '../background/BackgroundSystem';
 import type { IRenderer } from '../IRenderer';
 import type { IRendererPlugins } from '../plugin/PluginSystem';

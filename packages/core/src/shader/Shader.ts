@@ -1,8 +1,8 @@
-import { Runner } from '@pixi/runner';
+import { Runner } from 'pixi/runner.ts';
 import { Program } from './Program';
 import { UniformGroup } from './UniformGroup';
 
-import type { Dict } from '@pixi/utils';
+import type { Dict } from 'pixi/utils.ts';
 
 /**
  * A helper class for shaders.

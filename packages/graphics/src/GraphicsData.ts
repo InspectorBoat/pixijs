@@ -1,4 +1,4 @@
-import type { IShape, Matrix, SHAPES } from '@pixi/core';
+import type { IShape, Matrix, SHAPES } from 'pixi/core.ts';
 import type { FillStyle } from './styles/FillStyle';
 import type { LineStyle } from './styles/LineStyle';
 

@@ -1,4 +1,4 @@
-import * as lib from '@pixi/constants';
+import * as lib from 'pixi/constants.ts';
 
 describe('Constants', () =>
 {

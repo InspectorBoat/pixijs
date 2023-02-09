@@ -1,2 +1,2 @@
 /// <reference path="../global.d.ts" />
-export * from './CanvasExtract';
+export * from './CanvasExtract.ts';

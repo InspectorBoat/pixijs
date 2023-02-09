@@ -1,4 +1,4 @@
-import { settings } from '@pixi/settings';
+import { settings } from 'pixi/settings.ts';
 
 function assertPath(path: string)
 {

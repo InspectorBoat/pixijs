@@ -9,5 +9,5 @@ npm install @pixi/core
 ## Usage
 
 ```js
-import * as core from '@pixi/core';
+import * as core from 'pixi/core.ts';
 ```

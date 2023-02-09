@@ -1,12 +1,12 @@
-import { Matrix } from '@pixi/math';
+import { Matrix } from 'pixi/math.ts';
 import { TextureMatrix } from '../../textures/TextureMatrix';
 import { Filter } from '../Filter';
 import fragment from './spriteMaskFilter.frag';
 import vertex from './spriteMaskFilter.vert';
 
-import type { CLEAR_MODES } from '@pixi/constants';
-import type { Point } from '@pixi/math';
-import type { Dict } from '@pixi/utils';
+import type { CLEAR_MODES } from 'pixi/constants.ts';
+import type { Point } from 'pixi/math.ts';
+import type { Dict } from 'pixi/utils.ts';
 import type { IMaskTarget } from '../../mask/MaskData';
 import type { RenderTexture } from '../../renderTexture/RenderTexture';
 import type { Texture } from '../../textures/Texture';

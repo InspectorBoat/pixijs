@@ -5,7 +5,7 @@ import {
     INSTALLED,
     SVGResource,
     VideoResource,
-} from '@pixi/core';
+} from 'pixi/core.ts';
 
 describe('autoDetectResource', () =>
 {

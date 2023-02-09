@@ -1,4 +1,4 @@
-import type { ExtensionMetadata } from '@pixi/core';
+import type { ExtensionMetadata } from 'pixi/core.ts';
 
 /**
  * A prefer order lets the resolver know which assets to prefer depending on the various parameters passed to it.

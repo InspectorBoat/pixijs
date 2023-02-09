@@ -1,7 +1,7 @@
-import { Color, defaultFilterVertex, Filter } from '@pixi/core';
+import { Color, defaultFilterVertex, Filter } from 'pixi/core.ts';
 import fragment from './colorMatrix.frag';
 
-import type { utils } from '@pixi/core';
+import type { utils } from 'pixi/core.ts';
 
 export type ColorMatrix = utils.ArrayFixed<number, 20>;
 

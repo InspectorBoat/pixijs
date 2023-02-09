@@ -1,7 +1,7 @@
 import path from 'path';
-import { BaseTexture, Point, RenderTexture, Texture } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Sprite } from '@pixi/sprite';
+import { BaseTexture, Point, RenderTexture, Texture } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Sprite } from 'pixi/sprite.ts';
 
 describe('Sprite', () =>
 {

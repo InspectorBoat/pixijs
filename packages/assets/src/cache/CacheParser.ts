@@ -1,4 +1,4 @@
-import type { ExtensionMetadata } from '@pixi/core';
+import type { ExtensionMetadata } from 'pixi/core.ts';
 
 /**
  * For every asset that is cached, it will call the parsers test function

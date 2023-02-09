@@ -1,2 +1,2 @@
 /// <reference path="../global.d.ts" />
-import './TilingSprite';
+import './TilingSprite.ts';

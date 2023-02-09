@@ -1,9 +1,9 @@
-import { Color } from '@pixi/color';
-import { MIPMAP_MODES, MSAA_QUALITY } from '@pixi/constants';
+import { Color } from 'pixi/color.ts';
+import { MIPMAP_MODES, MSAA_QUALITY } from 'pixi/constants.ts';
 import { Framebuffer } from '../framebuffer/Framebuffer';
 import { BaseTexture } from '../textures/BaseTexture';
 
-import type { ColorSource } from '@pixi/color';
+import type { ColorSource } from 'pixi/color.ts';
 import type { MaskData } from '../mask/MaskData';
 import type { IBaseTextureOptions } from '../textures/BaseTexture';
 

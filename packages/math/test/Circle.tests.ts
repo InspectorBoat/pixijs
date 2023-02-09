@@ -1,4 +1,4 @@
-import { Circle } from '@pixi/math';
+import { Circle } from 'pixi/math.ts';
 
 describe('Circle', () =>
 {

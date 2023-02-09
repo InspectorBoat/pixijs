@@ -1,11 +1,11 @@
-import { BaseTexture, extensions, ExtensionType, settings, utils } from '@pixi/core';
+import { BaseTexture, extensions, ExtensionType, settings, utils } from 'pixi/core.ts';
 import { checkDataUrl } from '../../../utils/checkDataUrl';
 import { checkExtension } from '../../../utils/checkExtension';
 import { LoaderParserPriority } from '../LoaderParser';
 import { WorkerManager } from '../WorkerManager';
 import { createTexture } from './utils/createTexture';
 
-import type { IBaseTextureOptions, Texture } from '@pixi/core';
+import type { IBaseTextureOptions, Texture } from 'pixi/core.ts';
 import type { Loader } from '../../Loader';
 import type { LoadAsset } from '../../types';
 import type { LoaderParser } from '../LoaderParser';

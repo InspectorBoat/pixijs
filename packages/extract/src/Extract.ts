@@ -1,7 +1,7 @@
-import { extensions, ExtensionType, MSAA_QUALITY, Rectangle, RenderTexture, utils } from '@pixi/core';
+import { extensions, ExtensionType, MSAA_QUALITY, Rectangle, RenderTexture, utils } from 'pixi/core.ts';
 
-import type { ExtensionMetadata, ICanvas, ISystem, Renderer } from '@pixi/core';
-import type { DisplayObject } from '@pixi/display';
+import type { ExtensionMetadata, ICanvas, ISystem, Renderer } from 'pixi/core.ts';
+import type { DisplayObject } from 'pixi/display.ts';
 
 const TEMP_RECT = new Rectangle();
 const BYTES_PER_PIXEL = 4;

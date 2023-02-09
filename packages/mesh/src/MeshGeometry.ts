@@ -1,6 +1,6 @@
-import { Buffer, Geometry, TYPES } from '@pixi/core';
+import { Buffer, Geometry, TYPES } from 'pixi/core.ts';
 
-import type { IArrayBuffer } from '@pixi/core';
+import type { IArrayBuffer } from 'pixi/core.ts';
 
 /**
  * Standard 2D geometry used in PixiJS.

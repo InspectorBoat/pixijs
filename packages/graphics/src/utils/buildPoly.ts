@@ -1,6 +1,6 @@
-import { utils } from '@pixi/core';
+import { utils } from 'pixi/core.ts';
 
-import type { Polygon } from '@pixi/core';
+import type { Polygon } from 'pixi/core.ts';
 import type { IShapeBuildCommand } from './IShapeBuildCommand';
 
 function fixOrientation(points: number[], hole = false)

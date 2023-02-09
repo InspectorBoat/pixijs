@@ -1,4 +1,4 @@
-import { settings, utils } from '@pixi/core';
+import { settings, utils } from 'pixi/core.ts';
 import { Container } from './Container';
 
 Object.defineProperties(settings, {

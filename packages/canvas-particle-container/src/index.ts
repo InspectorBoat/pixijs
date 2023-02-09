@@ -1,1 +1,1 @@
-import './ParticleContainer';
+import './ParticleContainer.ts';

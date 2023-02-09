@@ -1,4 +1,4 @@
-import { BLEND_MODES } from '@pixi/core';
+import { BLEND_MODES } from 'pixi/core.ts';
 import { canUseNewCanvasBlendModes } from './canUseNewCanvasBlendModes';
 
 /**

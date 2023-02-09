@@ -1,6 +1,6 @@
 import { getCanvasBoundingBox } from './getCanvasBoundingBox';
 
-import type { ICanvas } from '@pixi/settings';
+import type { ICanvas } from 'pixi/settings.ts';
 
 /**
  * Trim transparent borders from a canvas.

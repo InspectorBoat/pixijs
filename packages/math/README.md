@@ -9,5 +9,5 @@ npm install @pixi/math
 ## Usage
 
 ```js
-import * as math from '@pixi/math';
+import * as math from 'pixi/math.ts';
 ```

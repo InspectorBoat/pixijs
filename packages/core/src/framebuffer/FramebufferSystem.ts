@@ -1,11 +1,11 @@
-import { BUFFER_BITS, ENV, MSAA_QUALITY } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Rectangle } from '@pixi/math';
-import { settings } from '@pixi/settings';
+import { BUFFER_BITS, ENV, MSAA_QUALITY } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Rectangle } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
 import { Framebuffer } from './Framebuffer';
 import { GLFramebuffer } from './GLFramebuffer';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { IRenderingContext } from '../IRenderer';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';

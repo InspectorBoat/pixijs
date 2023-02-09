@@ -1,7 +1,7 @@
 import path from 'path';
-import { Renderer, Texture } from '@pixi/core';
-import { ParticleContainer } from '@pixi/particle-container';
-import { Sprite } from '@pixi/sprite';
+import { Renderer, Texture } from 'pixi/core.ts';
+import { ParticleContainer } from 'pixi/particle-container';
+import { Sprite } from 'pixi/sprite.ts';
 
 describe('ParticleRenderer', () =>
 {

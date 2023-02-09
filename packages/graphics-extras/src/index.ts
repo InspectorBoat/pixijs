@@ -1,5 +1,5 @@
 /// <reference path="../global.d.ts" />
-import { Graphics } from '@pixi/graphics';
+import { Graphics } from 'pixi/graphics.ts';
 import { drawChamferRect } from './drawChamferRect';
 import { drawFilletRect } from './drawFilletRect';
 import { drawRegularPolygon } from './drawRegularPolygon';

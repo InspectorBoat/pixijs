@@ -1,8 +1,8 @@
-import { MaskData, Transform } from '@pixi/core';
-import { Container } from '@pixi/display';
-import { Graphics } from '@pixi/graphics';
+import { MaskData, Transform } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
+import { Graphics } from 'pixi/graphics.ts';
 
-import '@pixi/canvas-display';
+import 'pixi/canvas-display.ts';
 
 describe('Container', () =>
 {

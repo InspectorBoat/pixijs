@@ -1,8 +1,8 @@
-import { Cache, loadJson, loadSVG, loadTextures, loadWebFont } from '@pixi/assets';
-import { Texture } from '@pixi/core';
+import { Cache, loadJson, loadSVG, loadTextures, loadWebFont } from 'pixi/assets.ts';
+import { Texture } from 'pixi/core.ts';
 import { Loader } from '../src/loader/Loader';
 
-import type { LoaderParser } from '@pixi/assets';
+import type { LoaderParser } from 'pixi/assets.ts';
 
 describe('Loader', () =>
 {

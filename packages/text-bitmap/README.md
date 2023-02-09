@@ -9,5 +9,5 @@ npm install @pixi/text-bitmap
 ## Usage
 
 ```js
-import '@pixi/text-bitmap';
+import 'pixi/text-bitmap.ts';
 ```

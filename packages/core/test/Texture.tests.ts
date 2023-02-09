@@ -1,10 +1,10 @@
 import path from 'path';
-import { BaseTexture, Texture } from '@pixi/core';
-import { Point, Rectangle } from '@pixi/math';
-import { settings } from '@pixi/settings';
-import { BaseTextureCache, TextureCache } from '@pixi/utils';
+import { BaseTexture, Texture } from 'pixi/core.ts';
+import { Point, Rectangle } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
+import { BaseTextureCache, TextureCache } from 'pixi/utils.ts';
 
-import type { ImageResource } from '@pixi/core';
+import type { ImageResource } from 'pixi/core.ts';
 
 const URL = 'foo.png';
 const NAME = 'foo';

@@ -1,4 +1,4 @@
-import { Matrix } from '@pixi/math';
+import { Matrix } from 'pixi/math.ts';
 
 import type { Texture } from './Texture';
 

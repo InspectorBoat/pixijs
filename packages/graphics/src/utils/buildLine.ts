@@ -1,7 +1,7 @@
-import { Point, SHAPES } from '@pixi/core';
+import { Point, SHAPES } from 'pixi/core.ts';
 import { curves, LINE_CAP, LINE_JOIN } from '../const';
 
-import type { Polygon } from '@pixi/core';
+import type { Polygon } from 'pixi/core.ts';
 import type { GraphicsData } from '../GraphicsData';
 import type { GraphicsGeometry } from '../GraphicsGeometry';
 

@@ -1,5 +1,5 @@
-import { Point } from '@pixi/core';
-import { Container } from '@pixi/display';
+import { Point } from 'pixi/core.ts';
+import { Container } from 'pixi/display.ts';
 
 describe('toGlobal', () =>
 {

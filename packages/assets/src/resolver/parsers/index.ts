@@ -1,1 +1,1 @@
-export * from './resolveTextureUrl';
+export * from './resolveTextureUrl.ts';

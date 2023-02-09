@@ -1,9 +1,9 @@
-import { Assets } from '@pixi/assets';
+import { Assets } from 'pixi/assets.ts';
 import { Loader } from '../../assets/src/loader/Loader';
 import { Resolver } from '../../assets/src/resolver/Resolver';
 import { detectCompressedTextures, loadDDS, loadKTX, resolveCompressedTextureUrl } from '../src/loaders';
 
-import type { Texture } from '@pixi/core';
+import type { Texture } from 'pixi/core.ts';
 
 describe('Compressed Loader', () =>
 {

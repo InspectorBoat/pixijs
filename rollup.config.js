@@ -1,11 +1,11 @@
 import path from 'path';
-import resolve from '@rollup/plugin-node-resolve';
+import resolve from 'rollup/plugin-node-resolve';
 import rename from 'rollup-plugin-rename-node-modules';
 import { string } from 'rollup-plugin-string';
 import sourcemaps from 'rollup-plugin-sourcemaps';
 import esbuild from 'rollup-plugin-esbuild';
-import commonjs from '@rollup/plugin-commonjs';
-import json from '@rollup/plugin-json';
+import commonjs from 'rollup/plugin-commonjs';
+import json from 'rollup/plugin-json';
 import jscc from 'rollup-plugin-jscc';
 import workspacesRun from 'workspaces-run';
 import repo from './lerna.json';

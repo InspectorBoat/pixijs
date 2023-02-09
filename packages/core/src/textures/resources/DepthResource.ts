@@ -1,4 +1,4 @@
-import { ALPHA_MODES } from '@pixi/constants';
+import { ALPHA_MODES } from 'pixi/constants.ts';
 import { BufferResource } from './BufferResource';
 
 import type { Renderer } from '../../Renderer';

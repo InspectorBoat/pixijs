@@ -1,4 +1,4 @@
-import { Transform } from '@pixi/math';
+import { Transform } from 'pixi/math.ts';
 
 describe('Transform', () =>
 {

@@ -1,4 +1,4 @@
-import type { ISize } from '@pixi/math';
+import type { ISize } from 'pixi/math.ts';
 import type { ICubeResourceOptions } from './CubeResource';
 import type { IImageResourceOptions } from './ImageResource';
 import type { Resource } from './Resource';

@@ -1,2 +1,2 @@
 /// <reference path="../global.d.ts" />
-export * from './Sprite';
+export * from './Sprite.ts';

@@ -1,5 +1,5 @@
 /// <reference path="../global.d.ts" />
-import { Container, DisplayObject } from '@pixi/display';
+import { Container, DisplayObject } from 'pixi/display.ts';
 
 /**
  * The instance name of the object.

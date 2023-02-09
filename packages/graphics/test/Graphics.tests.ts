@@ -1,5 +1,5 @@
-import { BLEND_MODES, Matrix, Point, Polygon, SHAPES, Texture } from '@pixi/core';
-import { FillStyle, Graphics, graphicsUtils, LINE_CAP, LINE_JOIN, LineStyle } from '@pixi/graphics';
+import { BLEND_MODES, Matrix, Point, Polygon, SHAPES, Texture } from 'pixi/core.ts';
+import { FillStyle, Graphics, graphicsUtils, LINE_CAP, LINE_JOIN, LineStyle } from 'pixi/graphics.ts';
 
 const { FILL_COMMANDS, buildLine } = graphicsUtils;
 

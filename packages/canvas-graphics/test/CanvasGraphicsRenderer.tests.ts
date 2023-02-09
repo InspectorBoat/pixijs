@@ -1,8 +1,8 @@
-import { CanvasGraphicsRenderer } from '@pixi/canvas-graphics';
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { BaseTexture, Texture } from '@pixi/core';
-import { Graphics } from '@pixi/graphics';
-import '@pixi/canvas-display';
+import { CanvasGraphicsRenderer } from 'pixi/canvas-graphics';
+import { CanvasRenderer } from 'pixi/canvas-renderer';
+import { BaseTexture, Texture } from 'pixi/core.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import 'pixi/canvas-display.ts';
 
 describe('CanvasGraphicsRenderer', () =>
 {

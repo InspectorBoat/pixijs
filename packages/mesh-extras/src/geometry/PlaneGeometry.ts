@@ -1,4 +1,4 @@
-import { MeshGeometry } from '@pixi/mesh';
+import { MeshGeometry } from 'pixi/mesh.ts';
 
 /**
  * @memberof PIXI

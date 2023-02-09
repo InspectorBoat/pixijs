@@ -1,9 +1,9 @@
-import { MASK_TYPES } from '@pixi/constants';
-import { extensions, ExtensionType } from '@pixi/extensions';
+import { MASK_TYPES } from 'pixi/constants.ts';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
 import { SpriteMaskFilter } from '../filters/spriteMask/SpriteMaskFilter';
 import { MaskData } from './MaskData';
 
-import type { ExtensionMetadata } from '@pixi/extensions';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
 import type { Renderer } from '../Renderer';
 import type { ISystem } from '../system/ISystem';
 import type { IMaskTarget } from './MaskData';

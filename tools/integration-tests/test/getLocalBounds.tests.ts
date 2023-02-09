@@ -1,20 +1,20 @@
-import { Container } from '@pixi/display';
-import { RenderTexture } from '@pixi/core';
-import { CanvasRenderer } from '@pixi/canvas-renderer';
-import { Sprite } from '@pixi/sprite';
-import { Graphics } from '@pixi/graphics';
-import { Text } from '@pixi/text';
-import { SimplePlane } from '@pixi/mesh-extras';
+import { Container } from 'pixi/display.ts';
+import { RenderTexture } from 'pixi/core.ts';
+import { CanvasRenderer } from 'pixi/canvas-renderer.ts';
+import { Sprite } from 'pixi/sprite.ts';
+import { Graphics } from 'pixi/graphics.ts';
+import { Text } from 'pixi/text.ts';
+import { SimplePlane } from 'pixi/mesh-extras.ts';
 
-import '@pixi/canvas-sprite';
-import '@pixi/canvas-graphics';
-import '@pixi/canvas-mesh';
-import '@pixi/canvas-display';
-import '@pixi/canvas-text';
+import 'pixi/canvas-sprite.ts';
+import 'pixi/canvas-graphics.ts';
+import 'pixi/canvas-mesh.ts';
+import 'pixi/canvas-display.ts';
+import 'pixi/canvas-text.ts';
 
 function withGL(fn: () => void)
 {
-    return !process.env.DISABLE_WEBGL ? fn : undefined;
+    return !Deno.env.get("DISABLE_WEBGL") ? fn : undefined;
 }
 
 describe('getLocalBounds', () =>

@@ -9,5 +9,5 @@ npm install @pixi/filter-blur
 ## Usage
 
 ```js
-import '@pixi/filter-blur';
+import 'pixi/filter-blur.ts';
 ```

@@ -1,4 +1,4 @@
-import * as utils from '@pixi/utils';
+import * as utils from 'pixi/utils.ts';
 
 describe('utils', () =>
 {

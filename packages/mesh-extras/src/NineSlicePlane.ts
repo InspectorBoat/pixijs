@@ -1,7 +1,7 @@
-import { Texture } from '@pixi/core';
+import { Texture } from 'pixi/core.ts';
 import { SimplePlane } from './SimplePlane';
 
-import type { ITypedArray } from '@pixi/core';
+import type { ITypedArray } from 'pixi/core.ts';
 
 const DEFAULT_BORDER_SIZE = 10;
 

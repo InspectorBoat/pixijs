@@ -1,1 +1,1 @@
-export * from './DisplacementFilter';
+export * from './DisplacementFilter.ts';

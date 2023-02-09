@@ -1,7 +1,7 @@
-import { MSAA_QUALITY } from '@pixi/constants';
-import { Rectangle } from '@pixi/math';
+import { MSAA_QUALITY } from 'pixi/constants.ts';
+import { Rectangle } from 'pixi/math.ts';
 
-import type { Matrix } from '@pixi/math';
+import type { Matrix } from 'pixi/math.ts';
 import type { RenderTexture } from '../renderTexture/RenderTexture';
 import type { Filter } from './Filter';
 import type { IFilterTarget } from './IFilterTarget';

@@ -1,4 +1,4 @@
-import type { Dict } from '@pixi/utils';
+import type { Dict } from 'pixi/utils.ts';
 
 const GLSL_TO_SIZE: Dict<number> = {
     float:    1,

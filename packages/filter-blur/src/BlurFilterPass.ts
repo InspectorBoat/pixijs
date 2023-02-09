@@ -1,8 +1,8 @@
-import { CLEAR_MODES, Filter } from '@pixi/core';
+import { CLEAR_MODES, Filter } from 'pixi/core.ts';
 import { generateBlurFragSource } from './generateBlurFragSource';
 import { generateBlurVertSource } from './generateBlurVertSource';
 
-import type { FilterSystem, RenderTexture } from '@pixi/core';
+import type { FilterSystem, RenderTexture } from 'pixi/core.ts';
 
 /**
  * The BlurFilterPass applies a horizontal or vertical Gaussian blur to an object.

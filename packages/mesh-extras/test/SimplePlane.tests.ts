@@ -1,9 +1,9 @@
-import { Cache, loadTextures } from '@pixi/assets';
-import { Point, Renderer, RenderTexture, Texture } from '@pixi/core';
-import { SimplePlane } from '@pixi/mesh-extras';
+import { Cache, loadTextures } from 'pixi/assets.ts';
+import { Point, Renderer, RenderTexture, Texture } from 'pixi/core.ts';
+import { SimplePlane } from 'pixi/mesh-extras';
 import { Loader } from '../../assets/src/loader/Loader';
 
-import type { PlaneGeometry } from '@pixi/mesh-extras';
+import type { PlaneGeometry } from 'pixi/mesh-extras';
 
 describe('SimplePlane', () =>
 {

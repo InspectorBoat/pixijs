@@ -1,6 +1,6 @@
 import { BaseImageResource } from './BaseImageResource';
 
-import type { ICanvas } from '@pixi/settings';
+import type { ICanvas } from 'pixi/settings.ts';
 
 /**
  * @interface OffscreenCanvas

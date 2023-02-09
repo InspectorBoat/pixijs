@@ -8,8 +8,8 @@ import {
     Point,
     utils,
     WRAP_MODES,
-} from '@pixi/core';
-import { Bounds } from '@pixi/display';
+} from 'pixi/core.ts';
+import { Bounds } from 'pixi/display.ts';
 import { GraphicsData } from './GraphicsData';
 import {
     BATCH_POOL,
@@ -20,7 +20,7 @@ import {
     FILL_COMMANDS,
 } from './utils';
 
-import type { Circle, Ellipse, IPointData, Matrix, Polygon, Rectangle, RoundedRectangle, Texture } from '@pixi/core';
+import type { Circle, Ellipse, IPointData, Matrix, Polygon, Rectangle, RoundedRectangle, Texture } from 'pixi/core.ts';
 import type { FillStyle } from './styles/FillStyle';
 import type { LineStyle } from './styles/LineStyle';
 

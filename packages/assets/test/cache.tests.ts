@@ -1,6 +1,6 @@
-import { Cache } from '@pixi/assets';
+import { Cache } from 'pixi/assets.ts';
 
-import type { CacheParser } from '@pixi/assets';
+import type { CacheParser } from 'pixi/assets.ts';
 
 const testParser = {
     test: (asset: string) => typeof asset === 'string',

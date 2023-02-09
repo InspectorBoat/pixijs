@@ -1,12 +1,12 @@
 /* eslint max-depth: [2, 8] */
-import { Color, Rectangle, settings, Texture, utils } from '@pixi/core';
-import { Sprite } from '@pixi/sprite';
+import { Color, Rectangle, settings, Texture, utils } from 'pixi/core.ts';
+import { Sprite } from 'pixi/sprite.ts';
 import { TEXT_GRADIENT } from './const';
 import { TextMetrics } from './TextMetrics';
 import { TextStyle } from './TextStyle';
 
-import type { ICanvas, ICanvasRenderingContext2D, Renderer } from '@pixi/core';
-import type { IDestroyOptions } from '@pixi/display';
+import type { ICanvas, ICanvasRenderingContext2D, Renderer } from 'pixi/core.ts';
+import type { IDestroyOptions } from 'pixi/display.ts';
 import type { ITextStyle } from './TextStyle';
 
 const defaultDestroyOptions: IDestroyOptions = {

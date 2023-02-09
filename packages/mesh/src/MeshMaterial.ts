@@ -1,8 +1,8 @@
-import { Color, Matrix, Program, Shader, TextureMatrix, utils } from '@pixi/core';
+import { Color, Matrix, Program, Shader, TextureMatrix, utils } from 'pixi/core.ts';
 import fragment from './shader/mesh.frag';
 import vertex from './shader/mesh.vert';
 
-import type { Texture } from '@pixi/core';
+import type { Texture } from 'pixi/core.ts';
 
 export interface IMeshMaterialOptions
 {

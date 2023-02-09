@@ -1,4 +1,4 @@
-import { isMobile, settings } from '@pixi/settings';
+import { isMobile, settings } from 'pixi/settings.ts';
 
 /**
  * The maximum recommended texture units to use.

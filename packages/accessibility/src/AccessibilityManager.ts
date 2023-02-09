@@ -1,10 +1,10 @@
-import { extensions, ExtensionType, utils } from '@pixi/core';
-import { DisplayObject } from '@pixi/display';
-import { FederatedEvent } from '@pixi/events';
+import { extensions, ExtensionType, utils } from 'pixi/core.ts';
+import { DisplayObject } from 'pixi/display.ts';
+import { FederatedEvent } from 'pixi/events.ts';
 import { accessibleTarget } from './accessibleTarget';
 
-import type { ExtensionMetadata, IRenderer, Rectangle } from '@pixi/core';
-import type { Container } from '@pixi/display';
+import type { ExtensionMetadata, IRenderer, Rectangle } from 'pixi/core.ts';
+import type { Container } from 'pixi/display.ts';
 import type { IAccessibleHTMLElement } from './accessibleTarget';
 
 // add some extra variables to the container..

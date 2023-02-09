@@ -1,4 +1,4 @@
-import { getCanvasBoundingBox } from '@pixi/utils';
+import { getCanvasBoundingBox } from 'pixi/utils.ts';
 
 describe('getCanvasBoundingBox', () =>
 {

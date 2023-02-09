@@ -1,4 +1,4 @@
-import { isMobile } from '@pixi/settings';
+import { isMobile } from 'pixi/settings.ts';
 
 /**
  * Uploading the same buffer multiple times in a single frame can cause performance issues.

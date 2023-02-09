@@ -1,1 +1,1 @@
-export * from './Runner';
+export * from './Runner.ts';

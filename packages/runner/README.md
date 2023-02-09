@@ -13,7 +13,7 @@ npm install @pixi/runner
 ## Usage
 
 ```js
-import { Runner } from '@pixi/runner';
+import { Runner } from 'pixi/runner.ts';
 
 const onComplete = new Runner('onComplete');
 
@@ -27,7 +27,7 @@ onComplete.emit(data);
 Can be used to execute a function on many objects. Handy for games. If you need to update you game elements each frame:
 
 ```js
-import { Runner } from '@pixi/runner';
+import { Runner } from 'pixi/runner.ts';
 
 const updateRunner = new Runner('update');
 

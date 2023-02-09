@@ -1,10 +1,10 @@
-import { copySearchParams, LoaderParserPriority } from '@pixi/assets';
-import { extensions, ExtensionType, settings, utils } from '@pixi/core';
+import { copySearchParams, LoaderParserPriority } from 'pixi/assets.ts';
+import { extensions, ExtensionType, settings, utils } from 'pixi/core.ts';
 import { BitmapFont } from './BitmapFont';
 import { TextFormat, XMLStringFormat } from './formats';
 
-import type { LoadAsset, Loader, LoaderParser } from '@pixi/assets';
-import type { Texture } from '@pixi/core';
+import type { LoadAsset, Loader, LoaderParser } from 'pixi/assets.ts';
+import type { Texture } from 'pixi/core.ts';
 import type { BitmapFontData } from './BitmapFontData';
 
 const validExtensions = ['.xml', '.fnt'];

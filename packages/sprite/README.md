@@ -9,7 +9,7 @@ npm install @pixi/sprite
 ## Usage
 
 ```js
-import { Sprite } from '@pixi/sprite';
+import { Sprite } from 'pixi/sprite.ts';
 
 const sprite = new Sprite();
 ```

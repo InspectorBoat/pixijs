@@ -1,5 +1,5 @@
-import { Color } from '@pixi/color';
-import { BLEND_MODES } from '@pixi/constants';
+import { Color } from 'pixi/color.ts';
+import { BLEND_MODES } from 'pixi/constants.ts';
 
 /**
  * Corrects PixiJS blend, takes premultiplied alpha into account

@@ -1,7 +1,7 @@
-import { TARGETS } from '@pixi/constants';
+import { TARGETS } from 'pixi/constants.ts';
 import { AbstractMultiResource } from './AbstractMultiResource';
 
-import type { ISize } from '@pixi/math';
+import type { ISize } from 'pixi/math.ts';
 import type { Renderer } from '../../Renderer';
 import type { BaseTexture } from '../BaseTexture';
 import type { GLTexture } from '../GLTexture';

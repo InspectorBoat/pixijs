@@ -1,9 +1,9 @@
-import { Cache, loadJson, loadTextures } from '@pixi/assets';
-import { Texture, utils } from '@pixi/core';
-import { Spritesheet, spritesheetAsset } from '@pixi/spritesheet';
+import { Cache, loadJson, loadTextures } from 'pixi/assets.ts';
+import { Texture, utils } from 'pixi/core.ts';
+import { Spritesheet, spritesheetAsset } from 'pixi/spritesheet.ts';
 import { Loader } from '../../assets/src/loader/Loader';
 
-import type { CacheParser } from '@pixi/assets';
+import type { CacheParser } from 'pixi/assets.ts';
 
 describe('spritesheetAsset', () =>
 {

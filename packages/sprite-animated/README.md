@@ -9,5 +9,5 @@ npm install @pixi/sprite-animated
 ## Usage
 
 ```js
-import '@pixi/sprite-animated';
+import 'pixi/sprite-animated.ts';
 ```

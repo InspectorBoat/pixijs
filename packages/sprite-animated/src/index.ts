@@ -1,1 +1,1 @@
-export * from './AnimatedSprite';
+export * from './AnimatedSprite.ts';

@@ -1,15 +1,15 @@
-import { extensions, ExtensionType } from '@pixi/extensions';
-import { Matrix } from '@pixi/math';
-import { settings } from '@pixi/settings';
-import { deprecation, isWebGLSupported } from '@pixi/utils';
+import { extensions, ExtensionType } from 'pixi/extensions.ts';
+import { Matrix } from 'pixi/math.ts';
+import { settings } from 'pixi/settings.ts';
+import { deprecation, isWebGLSupported } from 'pixi/utils.ts';
 import { UniformGroup } from './shader/UniformGroup';
 import { SystemManager } from './system/SystemManager';
 
-import type { ColorSource } from '@pixi/color';
-import type { MSAA_QUALITY, RENDERER_TYPE } from '@pixi/constants';
-import type { ExtensionMetadata } from '@pixi/extensions';
-import type { Rectangle } from '@pixi/math';
-import type { ICanvas } from '@pixi/settings';
+import type { ColorSource } from 'pixi/color.ts';
+import type { MSAA_QUALITY, RENDERER_TYPE } from 'pixi/constants.ts';
+import type { ExtensionMetadata } from 'pixi/extensions.ts';
+import type { Rectangle } from 'pixi/math.ts';
+import type { ICanvas } from 'pixi/settings.ts';
 import type { BackgroundSystem } from './background/BackgroundSystem';
 import type { BatchSystem } from './batch/BatchSystem';
 import type { ContextSystem } from './context/ContextSystem';

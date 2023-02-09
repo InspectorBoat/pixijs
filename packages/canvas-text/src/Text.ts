@@ -1,7 +1,7 @@
-import { Sprite } from '@pixi/sprite';
-import { Text } from '@pixi/text';
+import { Sprite } from 'pixi/sprite.ts';
+import { Text } from 'pixi/text.ts';
 
-import type { CanvasRenderer } from '@pixi/canvas-renderer';
+import type { CanvasRenderer } from 'pixi/canvas-renderer';
 
 /**
  * Renders the object using the Canvas renderer

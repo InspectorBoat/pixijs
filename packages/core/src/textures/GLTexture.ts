@@ -1,4 +1,4 @@
-import { FORMATS, TYPES } from '@pixi/constants';
+import { FORMATS, TYPES } from 'pixi/constants.ts';
 
 /**
  * Internal texture for WebGL context.

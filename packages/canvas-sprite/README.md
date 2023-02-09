@@ -9,5 +9,5 @@ npm install @pixi/canvas-sprite
 ## Usage
 
 ```js
-import '@pixi/canvas-sprite';
+import 'pixi/canvas-sprite.ts';
 ```

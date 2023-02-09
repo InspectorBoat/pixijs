@@ -9,5 +9,5 @@ npm install @pixi/mixin-cache-as-bitmap
 ## Usage
 
 ```js
-import '@pixi/mixin-cache-as-bitmap';
+import 'pixi/mixin-cache-as-bitmap.ts';
 ```

@@ -1,4 +1,4 @@
 /// <reference path="../global.d.ts" />
-import './Sprite';
+import './Sprite.ts';
 
-export * from './CanvasSpriteRenderer';
+export * from './CanvasSpriteRenderer.ts';
